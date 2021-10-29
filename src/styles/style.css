@@ -1,6 +1,46 @@
-.nav-logo-social {
+/* div {
+  border: solid green 3px;
+}
+
+nav {
+  border: solid green 3px;
+} */
+
+body {
+  background-color: #E5DCDF;
+}
+
+header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E5DCDF;
+  position: fixed;
+  top: 0;
+  width: 1900px;
+}
+
+.logo {
+  height: 90px;
+  justify-content: flex-start;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  padding: 1.2rem;
+}
+
+.social-links {
+  justify-content: flex-end;
+}
+
+
+.navbar a {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

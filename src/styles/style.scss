@@ -1,7 +1,28 @@
+div {
+    border: solid green 3px;
+}
 
+nav {
+    border: solid green 3px;
+}
 
 
 .nav-logo-social {
     display: flex;
     flex-direction: row;
+}
+
+.logo {
+    height: 60px;
+    justify-content: flex-start;
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
+
+
+.social-links {
+    justify-content: flex-end;
 }
