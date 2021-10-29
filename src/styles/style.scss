@@ -9,7 +9,7 @@ nav {
 $primary-background-colour:  #E5DCDF; 
 
 body {
-    background-color: $primary-background-colour;
+    background-color: #E5DCDF;
   }
   
   header {
@@ -17,10 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: $primary-background-colour;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    background-color: #E5DCDF;
   }
   
   .logo {
@@ -29,7 +26,7 @@ body {
   }
   
   .navbar {
-    display: flex;
+    display: flexbox;
   }
   
   .navbar a {
@@ -41,7 +38,31 @@ body {
     justify-content: flex-end;
   }
   
-
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+  }
+  
+  .simon-headshot {
+    /* display: inline-flex; */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .headshot {
+    display: inline-flex;
+    margin: 2px;
+    min-width: 50%;
+  }
+  
   
 
   
