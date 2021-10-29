@@ -16,9 +16,6 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #E5DCDF;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .logo {
@@ -27,20 +24,40 @@ header {
 }
 
 .navbar {
-  display: flex;
+  display: flexbox;
 }
 
 .navbar a {
   padding: 1.2rem;
+  text-align: center;
 }
 
 .social-links {
   justify-content: flex-end;
 }
 
-
-.navbar a {
-  text-align: center;
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+}
+
+.simon-headshot {
+  /* display: inline-flex; */
+  max-width: 100%;
+  height: auto;
+}
+
+.headshot {
+  display: inline-flex;
+  margin: 2px;
+  min-width: 50%;
+}
+
