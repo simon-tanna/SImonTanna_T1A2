@@ -1,28 +1,49 @@
-div {
-    border: solid green 3px;
+/* div {
+  border: solid green 3px;
 }
 
 nav {
-    border: solid green 3px;
-}
+  border: solid green 3px;
+} */
 
+$primary-background-colour:  #E5DCDF; 
 
-.nav-logo-social {
+body {
+    background-color: $primary-background-colour;
+  }
+  
+  header {
     display: flex;
     flex-direction: row;
-}
-
-.logo {
-    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $primary-background-colour;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 90px;
     justify-content: flex-start;
-}
-
-.navbar {
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    padding: 1.2rem;
+  }
+  
+  .social-links {
     justify-content: flex-end;
-}
+  }
+  
+  
+  .navbar a {
+    text-align: center;
+  }
+  
 
-
-
-.social-links {
-    justify-content: flex-end;
-}
+  
