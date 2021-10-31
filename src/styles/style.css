@@ -155,19 +155,23 @@ a:visited {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .simon-about-image img {
-    display: flex;
-    width: 800px;
+    /* display: flex; */
+    width: 650px;
   }
 
   .simon-about {
     display: flex;
     flex-direction: column;
-    max-width: 65%;
+    width: 65%;
     padding-left: 16px;
+  }
+
+  footer {
+    padding: 20px;
   }
 }
 
