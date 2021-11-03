@@ -90,6 +90,38 @@ a:visited {
   max-width: 100%;
 }
 
+/* Here is the styling for the contact.html */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.contact-image {
+  display: flex;
+  max-width: 100%;
+}
+
+/* Here is the styling for resume.html*/
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.resume-image {
+  display: flex;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
  /* Here is the styling for the navbar */
   header {
