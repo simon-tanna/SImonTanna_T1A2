@@ -63,7 +63,7 @@ a:visited {
 }
 
 .intro-container {
-    text-align: center;
+  text-align: center;
 }
 
 .simon-headshot {
@@ -88,6 +88,10 @@ a:visited {
 .simon-about-image img {
   display: flex;
   max-width: 100%;
+}
+
+.simon-about-image-header {
+  text-align: center;
 }
 
 /* Here is the styling for the contact.html */
@@ -120,6 +124,10 @@ a:visited {
 .resume-image {
   display: flex;
   max-width: 100%;
+}
+
+.resume-pdf {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -222,6 +230,27 @@ a:visited {
     width: 65%;
     padding-left: 16px;
   }
+
+    /* Here is the styling for the resume.html */
+
+    #resume {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .resume-image {
+      display: flex;
+      width: 550px;
+    }
+
+    .resume-content {
+      display: flex;
+      flex-direction: column;
+      width: 65%;
+      padding-left: 16px;
+    }
 
   footer {
     padding: 20px;
