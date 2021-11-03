@@ -181,7 +181,7 @@ a:visited {
     min-width: 50%;
   }
 
-  /* Here is the styling for the aboutme.html */
+  /* Here is the styling for the about.html */
 
   #about {
     display: flex;
@@ -196,6 +196,27 @@ a:visited {
   }
 
   .simon-about {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 16px;
+  }
+
+  /* Here is the styling for the contact.html */
+
+  #contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .contact-image {
+    display: flex;
+    width: 550px;
+  }
+
+  .contact-details {
     display: flex;
     flex-direction: column;
     width: 65%;
