@@ -269,9 +269,62 @@ a:visited {
       padding-left: 16px;
     }
 
-  footer {
+    /* This is the styling for blog.html */
+    #blog-main {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    /* .blog-container {
+      width: 100%;
+    } */
+
+    .blog-top-links {
+      display: inline-flex;
+      justify-content: space-between;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+    }
+
+    .blog-mid-links {
+      display: inline-flex;
+      justify-content: space-between;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+    }
+
+    .blog-bottom-links {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+    }
+
+    .blog1-link {
+      max-width: 40%;
+    }
+
+    .blog2-link {
+      max-width: 40%;
+    }
+
+    .blog3-link {
+      max-width: 40%;
+    }
+
+    .blog4-link {
+      max-width: 40%;
+    }
+
+    .blog5-link {
+      max-width: 40%;
+    }
+
+    footer {
     padding: 20px;
-  }
+    }
 }
 
 
