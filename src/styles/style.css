@@ -50,6 +50,37 @@ a:visited {
 .social-links img {
   height: 40px;
 }
+/* Here is the styling for the footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0.5rem;
+  align-content: flex-end;
+}
+
+.nav-footer-all {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+/* .nav-footer {
+  display: flexbox;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
+
+.socials-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
  /* Here is the styling for the index.html */
 .intro {
   display: flex;
@@ -75,7 +106,7 @@ a:visited {
   align-items: center;
 }
 
-  /* Here is the styling for the aboutme.html */
+  /* Here is the styling for about.html */
 
 #about {
   display: flex;
