@@ -7,9 +7,9 @@ nav {
 } */
 
 body {
-  background-color: #3ca0b9ff;
+  background-color: #ff9f1cff;
   margin: 0;
-  font-family: 'Urbanist', Tahoma, sans-serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   color: #262217ff;
 }
 
@@ -19,7 +19,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #62f3f8ff;
+  background-color: #cbf3f0ff;
 }
 
 a:link {
@@ -33,7 +33,7 @@ a:visited {
 }
 
 .logo {
-  height: 90px;
+  height: 180px;
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
@@ -235,8 +235,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    background-color: #62f3f8ff;
+    justify-content: space-between;
+    background-color: #cbf3f0ff;
   }
 
   .logo {
@@ -302,12 +302,19 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 
   .simon-about-image img {
-    /* display: flex; */
     width: 650px;
+  }
+
+  .simon-about-image {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin-top: 19px;
   }
 
   .simon-about {
@@ -315,7 +322,10 @@ footer {
     flex-direction: column;
     width: 65%;
     padding-left: 16px;
+    /* justify-content: center;
+    align-items: center; */
   }
+
 
   /* Here is the styling for the contact.html */
 
@@ -476,7 +486,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #62f3f8ff;
+    background-color: #cbf3f0ff;
   }
 
   .logo {
