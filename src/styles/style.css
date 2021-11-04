@@ -41,6 +41,7 @@ a:visited {
 .navbar a {
   padding: 0.5rem;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .social-links {
@@ -69,11 +70,17 @@ footer {
   display: inline-flex;
   justify-content: flex-end;
   flex-direction: column;
+  align-content: flex-end;
 }
 
 .socials-footer {
   display: flex;
   justify-content: flex-end;
+}
+
+.nav-footer {
+  display: flexbox;
+  align-items: flex-end;
 }
 
 
@@ -88,6 +95,8 @@ footer {
 
 .intro-head {
   text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .intro-container {
@@ -226,7 +235,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #62f3f8ff;
   }
 
@@ -242,8 +251,9 @@ footer {
   }
 
   .navbar a {
-    display: inline-flex;
-    padding: 1.0rem;
+    /* display: inline-flex; */
+    align-content: space-between;
+    padding: 0.8rem;
     text-align: center;
     font-size: 26px;
   }
