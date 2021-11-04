@@ -170,6 +170,41 @@ footer {
   max-width: 100%;
 }
 
+/* This is the generic styling for the child blog pages */
+
+#blog {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  text-align: center;
+}
+
+.blog-date {
+  text-align: center;
+}
+
+/* This is the stying for blog1.html */
+
+.blog-1-img {
+  max-width: 70%;
+}
+
+.blog-1-article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
  /* Here is the styling for the navbar */
   header {
