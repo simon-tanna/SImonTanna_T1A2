@@ -6,63 +6,254 @@ nav {
   border: solid green 3px;
 } */
 
-$primary-background-colour:  #E5DCDF; 
-
 body {
-    background-color: #E5DCDF;
-  }
-  
+  background-color: #3ca0b9ff;
+  margin: 0;
+  font-family: 'Urbanist', Tahoma, sans-serif;
+  color: #262217ff;
+}
+
+ /* Here is the styling for the navbar */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #62f3f8ff;
+}
+
+a:link {
+  text-decoration: none;
+  color: #3f3a27ff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #3f3a27ff;
+}
+
+.logo {
+  height: 90px;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.navbar a {
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.social-links {
+  padding: 0.5rem;
+}
+
+.social-links img {
+  height: 40px;
+}
+ /* Here is the styling for the index.html */
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #262217ff;
+}
+
+.intro-head {
+  text-align: center;
+}
+
+.intro-container {
+  text-align: center;
+}
+
+.simon-headshot {
+  max-width: 100%;
+}
+
+.headshot {
+  align-items: center;
+}
+
+  /* Here is the styling for the aboutme.html */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.simon-about-image img {
+  display: flex;
+  max-width: 100%;
+}
+
+.simon-about-image-header {
+  text-align: center;
+}
+
+/* Here is the styling for the contact.html */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.contact-image {
+  display: flex;
+  max-width: 100%;
+}
+
+/* Here is the styling for resume.html*/
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.resume-image {
+  display: flex;
+  max-width: 100%;
+}
+
+.resume-pdf {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+ /* Here is the styling for the navbar */
   header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #E5DCDF;
+    background-color: #9df8fbff;
   }
-  
+
   .logo {
     height: 90px;
     justify-content: flex-start;
+    padding-left: 0.5rem;
   }
-  
-  .navbar {
-    display: flexbox;
-  }
-  
+
   .navbar a {
     padding: 1.2rem;
     text-align: center;
+    font-size: 26px;
   }
-  
+
   .social-links {
     justify-content: flex-end;
   }
-  
+/* Here is the styling for the index.html */
   .intro {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    align-items: flex-start;
+    /* width: 100%; */
   }
-  
+
   .intro-container {
     display: flex;
     flex-direction: column;
     min-width: 50%;
+    align-items: center;
+    justify-content: flex-start;
   }
-  
+
+  .intro-head {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .simon-headshot {
     /* display: inline-flex; */
     max-width: 100%;
     height: auto;
   }
-  
+
   .headshot {
     display: inline-flex;
     margin: 2px;
     min-width: 50%;
   }
-  
-  
 
-  
+  /* Here is the styling for the about.html */
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .simon-about-image img {
+    /* display: flex; */
+    width: 650px;
+  }
+
+  .simon-about {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 16px;
+  }
+
+  /* Here is the styling for the contact.html */
+
+  #contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .contact-image {
+    display: flex;
+    width: 550px;
+  }
+
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 16px;
+  }
+
+    /* Here is the styling for the resume.html */
+
+    #resume {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .resume-image {
+      display: flex;
+      width: 550px;
+    }
+
+    .resume-content {
+      display: flex;
+      flex-direction: column;
+      width: 65%;
+      padding-left: 16px;
+    }
+
+  footer {
+    padding: 20px;
+  }
+}

@@ -7,9 +7,10 @@ nav {
 } */
 
 body {
-  background-color: #85c7d6ff;
+  background-color: #3ca0b9ff;
   margin: 0;
   font-family: 'Urbanist', Tahoma, sans-serif;
+  color: #262217ff;
 }
 
  /* Here is the styling for the navbar */
@@ -18,7 +19,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #9df8fbff;
+  background-color: #62f3f8ff;
 }
 
 a:link {
@@ -55,7 +56,7 @@ a:visited {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  color: #3f3a27ff;
+  color: #262217ff;
 }
 
 .intro-head {
@@ -130,6 +131,22 @@ a:visited {
   text-align: center;
 }
 
+/* This is the styling for blog.html */
+
+#blog-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.blog-image {
+  display: flex;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
  /* Here is the styling for the navbar */
   header {
@@ -137,7 +154,7 @@ a:visited {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #9df8fbff;
+    background-color: #62f3f8ff;
   }
 
   .logo {

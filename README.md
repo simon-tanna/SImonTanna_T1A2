@@ -1,3 +1,5 @@
+# Simon Tanna's Portfolio 1
+
 
 
 
@@ -15,3 +17,10 @@
 --cadet-blue: #54a09eff;
 --feldgrau: #4b6858ff;
 --olive-drab-7: #3f3a27ff;
+
+/* CSS HEX */
+--electric-blue: #6;2f3f8ff
+--pacific-blue: #3ca0b9ff;
+--orange-soda: #f85a3eff;
+--aureolin: #fff133ff;
+--black-chocolate: #262217ff;
