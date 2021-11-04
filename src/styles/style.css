@@ -67,18 +67,10 @@ footer {
   flex-direction: column;
 }
 
-/* .nav-footer {
-  display: flexbox;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-} */
-
 .socials-footer {
   display: flex;
   justify-content: flex-end;
 }
-
 
 
  /* Here is the styling for the index.html */
