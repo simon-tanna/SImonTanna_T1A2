@@ -197,9 +197,9 @@ footer {
 }
 
 /* This is the stying for blog1.html */
-
 .blog-1-img {
-  max-width: 70%;
+  max-width: 60%;
+  min-width: 300px;
 }
 
 .blog-1-article {
@@ -207,6 +207,16 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.blog-1-para-1 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.blog-1-para-2 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 /* This is the media breakpoint for desktop view */
@@ -394,6 +404,53 @@ footer {
 
   .blog5-link {
     max-width: 40%;
+  }
+
+  /* This is the generic styling for the child blog pages */
+  #blog {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-title {
+    text-align: center;
+  }
+
+  .blog-date {
+    text-align: center;
+  }
+
+  /* This is the stying for blog1.html */
+  .blog-1-img {
+    max-width: 60%;
+  }
+  
+  .blog-1-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-1-para-1 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .blog-1-para-2 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 
   footer {
@@ -584,6 +641,52 @@ footer {
     min-width: 40%;
   }
   
+  /* This is the generic styling for the child blog pages */
+  #blog {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-title {
+    text-align: center;
+  }
+
+  .blog-date {
+    text-align: center;
+  }
+
+  /* This is the stying for blog1.html */
+  .blog-1-img {
+    max-width: 60%;
+  }
+
+  .blog-1-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-1-para-1 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .blog-1-para-2 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 }
 
 
