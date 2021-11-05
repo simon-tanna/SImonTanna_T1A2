@@ -396,9 +396,6 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* justify-content: space-between; */
-    /* justify-content: center; */
-    /* align-items: center; */
   }
 
   .simon-about-image img {
@@ -416,9 +413,13 @@ footer {
     flex-direction: column;
     width: 65%;
     padding-left: 16px;
-    /* justify-content: center;
-    align-items: center; */
   }
+
+  .simon-about-header {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
 
 
   /* Here is the styling for the contact.html */
