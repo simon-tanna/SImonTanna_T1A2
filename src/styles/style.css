@@ -34,7 +34,7 @@ a:visited {
 }
 
 .logo {
-  height: 180px;
+  height: 110px;
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
@@ -55,6 +55,8 @@ a:visited {
 
 .navbar {
   text-align: center;
+  padding-top: 0.8rem;
+  border-top: 2px dotted #226f54;
 }
 
 .active {
@@ -322,6 +324,7 @@ footer {
   .navbar {
     display: inline-flex;
     justify-content: space-between;
+    border-top: hidden;
   }
 
   .navbar a {
@@ -341,10 +344,10 @@ footer {
     opacity: 0.6;
   }
 
-
   .social-links {
     display: inline-flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
   }
 /* Here is the styling for the index.html */
   .intro {
@@ -596,6 +599,11 @@ footer {
   
   .social-links img {
     height: 40px;
+  }
+
+  .navbar {
+    text-align: center;
+    padding-top: 8px;
   }
 
   /* here is the styling for the index */
