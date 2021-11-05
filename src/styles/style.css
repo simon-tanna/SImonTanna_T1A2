@@ -57,6 +57,10 @@ a:visited {
   text-align: center;
 }
 
+.active {
+  opacity: 0.6;
+}
+
 /* Here is the styling for the footer */
 footer {
   display: flex;
@@ -310,7 +314,7 @@ footer {
   }
 
   .logo {
-    height: 90px;
+    height: 110px;
     justify-content: flex-start;
     padding-left: 0.5rem;
   }
@@ -323,10 +327,20 @@ footer {
   .navbar a {
     /* display: inline-flex; */
     align-content: space-between;
-    padding: 0.8rem;
+    padding: 0.6rem;
     text-align: center;
     font-size: 26px;
   }
+
+  .navbar a:hover {
+    background-color: #226f54;
+    color: #f4f0bb;
+  }
+
+  .active {
+    opacity: 0.6;
+  }
+
 
   .social-links {
     display: inline-flex;
@@ -362,13 +376,14 @@ footer {
     height: auto;
   }
 
-  .headshot {
+  #headshot {
+    display: flex;
     margin: 2px;
     min-width: 50%;
   }
 
-  .headshot figure {
-    display: flex;
+  #headshot figure {
+    /* display: flex; */
     align-items: center;
   }
 
