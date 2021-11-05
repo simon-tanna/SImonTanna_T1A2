@@ -7,7 +7,7 @@ nav {
 } */
 
 body {
-  background-color: #ff9f1cff;
+  background-color: #87c38fff;
   margin: 0;
   font-family: 'Poppins', Tahoma, sans-serif;
   color: #262217ff;
@@ -19,7 +19,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #cbf3f0ff;
+  background-color: #f4f0bbff;
+  font-family: 'Esteban', Garamond, serif;
 }
 
 a:link {
@@ -55,8 +56,8 @@ a:visited {
 .navbar {
   text-align: center;
 }
-/* Here is the styling for the footer */
 
+/* Here is the styling for the footer */
 footer {
   display: flex;
   flex-direction: row;
@@ -95,12 +96,21 @@ footer {
 
 .intro-head {
   text-align: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  font-family: 'Esteban', Garamond, serif;
+  font-size: 34px;
 }
 
 .intro-container {
   text-align: center;
+}
+
+#skills {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px 2px 5px 2px;
+  font-family: 'Esteban', Garamond, serif;
 }
 
 .simon-headshot {
@@ -129,6 +139,11 @@ footer {
 
 .simon-about-image-header {
   text-align: center;
+  font-family: 'Esteban', Garamond, serif;
+}
+
+.simon-about-header {
+  font-family: 'Esteban', Garamond, serif;
 }
 
 /* Here is the styling for the contact.html */
@@ -236,7 +251,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #cbf3f0ff;
   }
 
   .logo {
@@ -272,16 +286,18 @@ footer {
   }
 
   .intro-container {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     min-width: 50%;
     align-items: center;
     justify-content: flex-start;
+    align-content: flex-start;
   }
 
   .intro-head {
     display: flex;
     justify-content: flex-start;
+    font-size: 44px;
   }
 
   .simon-headshot {
@@ -486,7 +502,6 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: #cbf3f0ff;
   }
 
   .logo {
@@ -507,6 +522,13 @@ footer {
   .social-links img {
     height: 40px;
   }
+
+  /* here is the styling for the index */
+
+  .intro-head {
+    font-size: 40px;
+  }
+
 
   /* Here is the styling for the footer */
   footer {
