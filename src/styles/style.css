@@ -63,6 +63,12 @@ a:visited {
   opacity: 0.6;
 }
 
+/* #mid-button::after {
+  content: "|";
+  color: #226f54;
+  font-weight: 700;
+} */
+
 /* Here is the styling for the footer */
 footer {
   display: flex;
@@ -281,18 +287,28 @@ footer {
 .blog-image {
   display: flex;
   max-width: 100%;
+  padding-bottom: 3px;
 }
 
 .blog-container {
   font-family: 'Esteban', Garamond, serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .blog-header {
-  font-size: 40px;
+  font-size: 34px;
 }
 
 .blog-subheader {
   font-size: 22px;
+  text-align: center;
+}
+
+#blog-title {
+  text-align: center;
+  font-size: 20px;
 }
 
 /* This is the generic styling for the child blog pages */
@@ -312,7 +328,7 @@ footer {
 .blog-title {
   text-align: center;
   font-family: 'Esteban', Garamond, serif;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .blog-date {
@@ -599,9 +615,32 @@ footer {
     margin: 12px;
   }
 
-  /* .blog-container {
-    width: 100%;
-  } */
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+
+  .blog-header {
+    font-size: 44px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-subheader {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  #blog-title {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .blog-image {
+    padding-bottom: 5px;
+  }
 
   .blog-top-links {
     display: inline-flex;
@@ -887,6 +926,33 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     margin: 12px;
+  }
+
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.8rem;
+  }
+
+  .blog-header {
+    font-size: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-subheader {
+    font-size: 26px;
+    text-align: left;
+  }
+
+  #blog-title {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .blog-image {
+    padding-bottom: 4px;
   }
 
   .blog-top-links {
