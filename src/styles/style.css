@@ -200,9 +200,29 @@ footer {
   max-width: 100%;
 }
 
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 .contact-details-header {
   font-family: 'Esteban', Garamond, serif;
-  font-size: 32px;
+  font-size: 28px;
+}
+
+.contact-list {
+  font-size: 20px;
+}
+
+.email-link {
+  font-size: 18px;
+}
+
+.phone-link {
+  font-size: 18px;
 }
 
 /* Here is the styling for resume.html*/
@@ -443,6 +463,23 @@ footer {
     padding-left: 16px;
   }
 
+  .contact-details-header {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 38px;
+  }
+  
+  .contact-list {
+    font-size: 28px;
+  }
+  
+  .email-link {
+    font-size: 24px;
+  }
+  
+  .phone-link {
+    font-size: 24px;
+  }
+
     /* Here is the styling for the resume.html */
 
   #resume {
@@ -678,13 +715,29 @@ footer {
     align-items: center;
   }
 
-  /* .contact-container {
+  .contact-details {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
+    align-items: flex-start;
+  }
   
+  .contact-details-header {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 30px;
+  }
+  
+  .contact-list {
+    font-size: 22px;
+  }
+  
+  .email-link {
+    font-size: 20px;
+  }
+  
+  .phone-link {
+    font-size: 20px;
+  }
+
   /* Here is the styling for resume.html*/
   #resume {
     display: flex;
