@@ -191,13 +191,14 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .contact-image {
   display: flex;
   max-width: 100%;
+  opacity: 0.8;
 }
 
 .contact-details {
@@ -206,6 +207,7 @@ footer {
   align-items: flex-start;
   width: 100%;
   flex-wrap: wrap;
+  margin: 8px;
 }
 
 .contact-details-header {
@@ -449,6 +451,8 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    /* padding-left: 8px; */
+    padding-right: 8px;
   }
 
   .contact-image {
@@ -703,10 +707,8 @@ footer {
   #contact {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start;
-    justify-content: space-around; */
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
   
   .contact-container img {
