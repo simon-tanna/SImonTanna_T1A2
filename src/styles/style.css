@@ -312,11 +312,12 @@ footer {
 .blog-title {
   text-align: center;
   font-family: 'Esteban', Garamond, serif;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .blog-date {
   text-align: center;
+  opacity: 0.8;
 }
 
 /* This is the stying for blog1.html */
@@ -340,6 +341,42 @@ footer {
 .blog-1-para-2 {
   margin-right: 0.8rem;
   margin-left: 0.8rem;
+}
+
+/* This is the stying for blog5.html */
+.blog-5-img {
+  max-width: 60%;
+  min-width: 300px;
+}
+
+.blog-5-article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-5-para-1 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.blog-5-para-2 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+} 
+
+.blog-5-aside {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+}
+
+.blog-5-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* This is the media breakpoint for desktop view */
@@ -490,15 +527,15 @@ footer {
     font-family: 'Esteban', Garamond, serif;
     font-size: 38px;
   }
-  
+
   .contact-list {
     font-size: 28px;
   }
-  
+
   .email-link {
     font-size: 24px;
   }
-  
+
   .phone-link {
     font-size: 24px;
   }
@@ -615,7 +652,7 @@ footer {
   .blog-1-img {
     max-width: 60%;
   }
-  
+
   .blog-1-article {
     display: flex;
     justify-content: center;
@@ -635,6 +672,20 @@ footer {
     padding-left: 4rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+  }
+
+/* This is the stying for blog5.html */
+  .blog-5-section {
+    flex-direction: row;
+  }
+  
+  .blog-5-section img {
+    max-width: 100%;
+  }
+
+  .blog-5-aside {
+    /* font-size: 18px; */
+    padding-left: 18px;
   }
 
   footer {
@@ -657,16 +708,16 @@ footer {
     margin-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
-  
+
   .navbar a {
     padding: 0.5rem;
     font-size: 24px;
   }
-  
+
   .social-links {
     padding: 0.5rem;
   }
-  
+
   .social-links img {
     height: 40px;
   }
@@ -699,7 +750,7 @@ footer {
     flex-direction: column;
   }
 
-  .socials-footer { 
+  .socials-footer {
     display: flex;
     justify-content: flex-end;
   }
@@ -711,13 +762,13 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
   .simon-about-image img {
     display: flex;
     max-width: 90%;
     align-items: center;
   }
-  
+
   .simon-about-image-header {
     text-align: center;
   }
@@ -744,7 +795,7 @@ footer {
     padding-left: 4px;
     padding-right: 4px;
   }
-  
+
   .contact-container img {
     display: flex;
     max-width: 90%;
@@ -756,20 +807,20 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .contact-details-header {
     font-family: 'Esteban', Garamond, serif;
     font-size: 30px;
   }
-  
+
   .contact-list {
     font-size: 22px;
   }
-  
+
   .email-link {
     font-size: 20px;
   }
-  
+
   .phone-link {
     font-size: 20px;
   }
@@ -858,7 +909,7 @@ footer {
     max-width: 40%;
     min-width: 40%;
   }
-  
+
   /* This is the generic styling for the child blog pages */
   #blog {
     margin: 1rem;
@@ -905,6 +956,32 @@ footer {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
   }
+
+    /* This is the stying for blog5.html */
+    .blog-5-img {
+      max-width: 60%;
+    }
+  
+    .blog-5-para-1 {
+      padding-right: 3rem;
+      padding-left: 3rem;
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
+  
+    .blog-5-para-2 {
+      padding-right: 3rem;
+      padding-left: 3rem;
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
+
+    .blog-5-aside {
+      padding-right: 3rem;
+      padding-left: 3rem;
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
 }
 
 
