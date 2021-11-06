@@ -347,6 +347,7 @@ footer {
 .blog-5-img {
   max-width: 60%;
   min-width: 300px;
+  opacity: 0.8;
 }
 
 .blog-5-article {
@@ -642,10 +643,12 @@ footer {
 
   .blog-title {
     text-align: center;
+    font-size: 36px;
   }
 
   .blog-date {
     text-align: center;
+    font-size: 22px;
   }
 
   /* This is the stying for blog1.html */
@@ -686,6 +689,10 @@ footer {
   .blog-5-aside {
     /* font-size: 18px; */
     padding-left: 18px;
+  }
+
+  .blog-5-article {
+    font-size: 20px;
   }
 
   footer {
@@ -925,10 +932,12 @@ footer {
 
   .blog-title {
     text-align: center;
+    font-size: 32px;
   }
 
   .blog-date {
     text-align: center;
+    font-size: 18px;
   }
 
   /* This is the stying for blog1.html */
@@ -959,26 +968,30 @@ footer {
 
     /* This is the stying for blog5.html */
     .blog-5-img {
-      max-width: 60%;
+      max-width: 80%;
+    }
+
+    .blog-5-article {
+      font-size: 18px;
     }
   
     .blog-5-para-1 {
-      padding-right: 3rem;
-      padding-left: 3rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
   
     .blog-5-para-2 {
-      padding-right: 3rem;
-      padding-left: 3rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
 
     .blog-5-aside {
-      padding-right: 3rem;
-      padding-left: 3rem;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
