@@ -299,6 +299,8 @@ footer {
 
 .blog-header {
   font-size: 34px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .blog-subheader {
@@ -414,6 +416,30 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
+
+/* This is the styling for blog4.html */
+.blog-4-img {
+  max-width: 60%;
+  min-width: 300px;
+  opacity: 0.8;
+}
+
+.blog-4-article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-4-para-1 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.blog-4-para-2 {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+} 
 
 /* This is the media breakpoint for desktop view */
 @media screen and (min-width: 769px) {
@@ -753,6 +779,30 @@ footer {
     font-size: 20px;
   }
 
+  /* This is the stying for blog4.html */
+  .blog-4-img {
+    max-width: 60%;
+  }
+
+  .blog-4-article {
+    font-size: 20px;
+  }
+
+  .blog-4-para-1 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .blog-4-para-2 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+
   footer {
   padding: 20px;
   }
@@ -1080,6 +1130,29 @@ footer {
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
+
+      /* This is the stying for blog4.html */
+  .blog-4-img {
+    max-width: 60%;
+  }
+
+  .blog-4-article {
+    font-size: 18px;
+  }
+
+  .blog-4-para-1 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .blog-4-para-2 {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
 }
 
 
