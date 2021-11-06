@@ -182,6 +182,11 @@ footer {
 
 .simon-about-header {
   font-family: 'Esteban', Garamond, serif;
+  font-size: 28px;
+}
+
+.simon-about-article {
+  font-size: 18px;
 }
 
 /* Here is the styling for the contact.html */
@@ -208,6 +213,7 @@ footer {
   width: 100%;
   flex-wrap: wrap;
   margin: 8px;
+  padding-right: 6px;
 }
 
 .contact-details-header {
@@ -437,6 +443,7 @@ footer {
     display: inline-flex;
     flex-direction: column-reverse;
     margin-top: 19px;
+    margin-left: 11px;
   }
 
   .simon-about {
@@ -449,9 +456,12 @@ footer {
   .simon-about-header {
     margin-top: 1rem;
     margin-bottom: 0.25rem;
+    font-size: 36px;
   }
 
-
+  .simon-about-article {
+    font-size: 20px;
+  }
 
   /* Here is the styling for the contact.html */
 
@@ -698,10 +708,8 @@ footer {
   #about {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    /* justify-content: space-around; */
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .simon-about-image img {
@@ -719,6 +727,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .simon-about-header {
+    font-size: 32px;
+  }
+
+  .simon-about-article {
+    font-size: 20px;
   }
 
   /* Here is the styling for contact.html */
