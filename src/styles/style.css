@@ -417,7 +417,7 @@ footer {
   flex-direction: column;
 }
 
-/* This is the styling for blog4.html */
+/* This is the styling for blog4.html and blog3.html */
 .blog-4-img {
   max-width: 60%;
   min-width: 300px;
@@ -440,6 +440,10 @@ footer {
   margin-right: 0.8rem;
   margin-left: 0.8rem;
 } 
+
+.blog-3-conclusion {
+  font-weight: bold;
+}
 
 /* This is the media breakpoint for desktop view */
 @media screen and (min-width: 769px) {
@@ -779,7 +783,7 @@ footer {
     font-size: 20px;
   }
 
-  /* This is the stying for blog4.html */
+  /* This is the stying for blog4.html and blog3.html */
   .blog-4-img {
     max-width: 60%;
   }
@@ -801,7 +805,6 @@ footer {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
   }
-
 
   footer {
   padding: 20px;
@@ -1131,7 +1134,7 @@ footer {
       margin-left: 1.5rem;
     }
 
-      /* This is the stying for blog4.html */
+      /* This is the stying for blog4.html and blog3.html */
   .blog-4-img {
     max-width: 60%;
   }
