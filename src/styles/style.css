@@ -320,6 +320,25 @@ footer {
   opacity: 0.8;
 }
 
+.back {
+  margin: 1.5rem;
+  align-self: center;
+}
+
+#back-to-blog::before {
+  content: "|";
+  color: #226f54;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+#back-to-blog::after {
+  content: "|";
+  color: #226f54;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
 /* This is the stying for blog1.html */
 .blog-1-img {
   max-width: 60%;
