@@ -526,6 +526,7 @@ footer {
     padding: 0.6rem;
     text-align: center;
     font-size: 26px;
+    transition: background-color 0.8s, color 0.2s;
   }
 
   .navbar a:hover {
