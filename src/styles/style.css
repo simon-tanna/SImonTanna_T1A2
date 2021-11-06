@@ -257,6 +257,10 @@ footer {
   margin: 8px;
 }
 
+.resume-article {
+  font-size: 16px;
+}
+
 /* This is the styling for blog.html */
 
 #blog-main {
@@ -508,6 +512,15 @@ footer {
     flex-direction: column;
     width: 65%;
     padding-left: 16px;
+  }
+
+  .resume-subhead {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 36px;
+  }
+
+  .resume-article {
+    font-size: 20px;
   }
 
   /* This is the styling for blog.html */
@@ -765,6 +778,15 @@ footer {
     text-align: center;
   }
 
+  .resume-subhead {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 32px;
+  }
+
+  .resume-article {
+    font-size: 18px;
+  }
+
   /* This is the styling for blog.html */
   #blog-main {
     display: flex;
@@ -774,16 +796,11 @@ footer {
     margin: 12px;
   }
 
-  /* .blog-container {
-    width: 100%;
-  } */
-
   .blog-top-links {
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog-mid-links {
@@ -791,7 +808,6 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog-bottom-links {
