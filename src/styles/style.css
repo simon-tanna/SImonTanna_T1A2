@@ -234,13 +234,14 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .resume-image {
   display: flex;
   max-width: 100%;
+  opacity: 0.8;
 }
 
 .resume-pdf {
@@ -250,6 +251,10 @@ footer {
 .resume-subhead {
   font-family: 'Esteban', Garamond, serif;
   font-size: 28px;
+}
+
+.resume-content {
+  margin: 8px;
 }
 
 /* This is the styling for blog.html */
@@ -746,8 +751,8 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
   .resume-container img {
