@@ -5,47 +5,17 @@
 <https://simontanna.netlify.app/>
 
 ## Github Repository
-<https://github.com/simon-tanna/SImonTanna_T1A2>
+<https://github.com/simon-tanna/SImonTanna_T1A2>  
 
-## 
+## Website Overview
+### Purpose
+The purpose of this website project is to showcase my portfolio of work as a web dev and IT professional. The primary work featured is the website itself and is designed to have future projects added over time as my career progresses.  
+Additional information such as a short biography, resumè, blog and contact details are also included.
 
+### Target Audience
+The website is aimed at potential employers looking to engage a dev/IT professional. It is assumed in the content of the website that the employer has technical knowledge of IT, software development and coding.
 
-
-
-#### Colour Palette
-/* CSS HEX */
---ghost-white: #e4e7f1ff;
---lavender-blush: #e5dcdfff;
---lavender-web: #d8dae9ff;
---wild-blue-yonder: #a5b7dfff;
---uranian-blue: #a5d5f3ff;
-
-/* CSS HEX */
---celeste: #9df8fbff;
---middle-blue: #85c7d6ff;
---cadet-blue: #54a09eff;
---feldgrau: #4b6858ff;
---olive-drab-7: #3f3a27ff;
-
-/* CSS HEX */
---electric-blue: #6;2f3f8ff
---pacific-blue: #3ca0b9ff;
---orange-soda: #f85a3eff;
---aureolin: #fff133ff;
---black-chocolate: #262217ff;
-
-
-/* CSS HEX */
---orange-peel: #ff9f1cff;
---mellow-apricot: #ffbf69ff;
---white: #ffffffff;
---light-cyan: #cbf3f0ff;
---light-sea-green: #2bb6a8ff;
---russian-violet: #0c0a3eff;
-
-/* CSS HEX */
---rose-madder: #da2c38ff;
---bottle-green: #226f54ff;
---dark-sea-green: #87c38fff;
---pale-spring-bud: #f4f0bbff;
---bistre: #43291fff;
+### Tech Stack 
+#### Front End
+- HTML5
+- CSS 3
