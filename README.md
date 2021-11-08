@@ -1,4 +1,13 @@
 # Simon Tanna's Portfolio 1
+### SIMONTANNA_T1A2
+
+## Portfolio Website
+<https://simontanna.netlify.app/>
+
+## Github Repository
+<https://github.com/simon-tanna/SImonTanna_T1A2>
+
+## 
 
 
 

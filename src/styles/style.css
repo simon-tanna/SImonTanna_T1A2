@@ -67,6 +67,14 @@ a:visited {
   opacity: 0.7;
 }
 
+/* #homenav::after {
+  content: "|";
+  color: #226f54;
+  font-weight: 700;
+  padding-left: 30px;
+  opacity: 1;
+} */
+
 /* #mid-button::after {
   content: "|";
   color: #226f54;
