@@ -14,7 +14,10 @@ The purpose of this website project is to showcase my portfolio of work as a web
 Additional information such as a short biography, resumè, blog and contact details are also included.   
 
 ### Target Audience
-The website is aimed at potential employers looking to engage a dev/IT professional. It is assumed in the content of the website that the employer has technical knowledge of IT, software development and coding.    
+The website is aimed at potential employers looking to engage a dev/IT professional. It is assumed in the content of the website that the employer has technical knowledge of IT, software development and coding.   
+
+## Site Map
+![Sitemap Image](./docs/sitemap.png)
 
 ## Tech Stack 
 #### **Front End**
@@ -32,6 +35,11 @@ The website is aimed at potential employers looking to engage a dev/IT professio
 - Prisma
 - Canva
 - coolors.co
+
+#### **Project Management**
+- Trello
+    - <https://trello.com/c/iAst6bx5>
+
 
 ## Website Features and Functionality
 ### Design
@@ -70,3 +78,6 @@ In order to maintain a professional looking website that is user friendly, the C
 ### Site Navigation
 
 Navbars are consistent in the header and footer of all site pages to ensure easy navigation. Each blog post features a 'Back to Blog Main' link at the conclusion of the post to enhance easy access to blog content.
+
+## Sub-resource Security
+The sub-recsource security hash used in the stylesheet is SHA-512.
