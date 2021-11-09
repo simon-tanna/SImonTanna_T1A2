@@ -42,4 +42,8 @@ This website was built from a "mobile first" perspective with media break-points
 I was able to easily translate this design to my html and css code as illustrated below.    
 
 ![Home Page Screenshot](./ppt/index_view.png)
-The design of the header being centered in mobile and tablet views is consistent through all child pages.
+The design of the header being centered in mobile and tablet views is consistent through all child pages.   
+In the About, Contact and My Work pages, I have kept a consistent format of an image aligned to the left in a flex display for the desktop view and aligned to the top of the page in mobile and tablet view as illustrated below.  
+
+![About Page Wireframe](./docs/Wireframes_Images/about.html.png)    
+![About Page Screenshot](./ppt/about_view.png)
