@@ -46,4 +46,15 @@ The design of the header being centered in mobile and tablet views is consistent
 In the About, Contact and My Work pages, I have kept a consistent format of an image aligned to the left in a flex display for the desktop view and aligned to the top of the page in mobile and tablet view as illustrated below.  
 
 ![About Page Wireframe](./docs/Wireframes_Images/about.html.png)    
-![About Page Screenshot](./ppt/about_view.png)
+![About Page Screenshot](./ppt/about_view.png)  
+
+The blog and blog child pages depart from this structure. The blog parent page displays flexbox images with links in rows of two both in desktop and tablet view. Mobile view the reverts to a single image and link per row as is evidenced in the below wireframes and screenshots.
+
+![Blog Page Wireframe](./docs/Wireframes_Images/blog.html.png) 
+![Blog Page Screenshot](./ppt/blog_view.png)    
+
+### Art and Colour
+
+The colour palette used for the website head, footer, background and personal logo has been designed to reflex a calm yet professional feel to the site. Below is the palette used.   
+
+![Colour Palette](./ppt/colour_palette.png)
