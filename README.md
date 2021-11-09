@@ -65,7 +65,7 @@ To provide optimal accessibility to the website, all images, external links and 
 
 ### CSS Animation and Effects
 
-In order to maintain a professional looking website that is user friendly, the CSS animations used are simple yet effective in enhancing the user experience. Changes in hover opacity in navbar links and hover border shadow in blog links are examples of this. The 'Creative' skill listed in index.html is animated to change colour through CSS code. Consideration was given to adding further CSS effects but it was determined that they may clutter the overall relaxed feel of the site.
+In order to maintain a professional looking website that is user friendly, the CSS animations used are simple yet effective in enhancing the user experience. Changes in hover opacity in navbar links and hover border shadow in blog links are examples of this. Adjustments to the hover transition duration have also been made. The 'Creative' skill listed in index.html is animated to change colour through CSS code. Consideration was given to adding further CSS effects but it was determined that they may clutter the overall relaxed feel of the site.
 
 ### Site Navigation
 
