@@ -58,3 +58,7 @@ The blog and blog child pages depart from this structure. The blog parent page d
 The colour palette used for the website head, footer, background and personal logo has been designed to reflex a calm yet professional feel to the site. Below is the palette used.   
 
 ![Colour Palette](./ppt/colour_palette.png)
+
+### Accessibility
+
+To provide optimal accessibility to the website, all images, external links and embedded playlists feature alternative text. To ensure font compatability, all fonts have fall-back web safe alternatives.
