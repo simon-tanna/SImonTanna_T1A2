@@ -49,27 +49,28 @@ This website was built from a "mobile first" perspective with media break-points
 
 I was able to easily translate this design to my html and css code as illustrated below.    
 
-![Home Page Screenshot](./ppt/index_view.png)
+![Home Page Screenshot](./docs/index_view.png)
 The design of the header being centered in mobile and tablet views is consistent through all child pages.   
 In the About, Contact and My Work pages, I have kept a consistent format of an image aligned to the left in a flex display for the desktop view and aligned to the top of the page in mobile and tablet view as illustrated below.  
 
 ![About Page Wireframe](./docs/Wireframes_Images/about.html.png)    
-![About Page Screenshot](./ppt/about_view.png)  
+![About Page Screenshot](./docs/about_view.png)  
 
 The blog and blog child pages depart from this structure. The blog parent page displays flexbox images with links in rows of two both in desktop and tablet view. Mobile view the reverts to a single image and link per row as is evidenced in the below wireframes and screenshots.
 
 ![Blog Page Wireframe](./docs/Wireframes_Images/blog.html.png) 
-![Blog Page Screenshot](./ppt/blog_view.png)    
+![Blog Page Screenshot](./docs/blog_view.png)    
 
 ### Art and Colour
 
 The colour palette used for the website head, footer, background and personal logo has been designed to reflex a calm yet professional feel to the site. Below is the palette used.   
 
-![Colour Palette](./ppt/colour_palette.png)
+![Colour Palette](./docs/colour_palette.png)
 
 ### Accessibility
 
-To provide optimal accessibility to the website, all images, external links and embedded playlists feature alternative text. To ensure font compatability, all fonts have fall-back web safe alternatives.
+To provide optimal accessibility to the website, all images, external links and embedded playlists feature alternative text. To ensure font compatability, all fonts have fall-back web safe alternatives.  
+Where possible semantic HTML elements have been used in order to create meaning to the html code. An example of this is the use of the "article" element in the blog posts.
 
 ### CSS Animation and Effects
 
@@ -81,3 +82,6 @@ Navbars are consistent in the header and footer of all site pages to ensure easy
 
 ## Sub-resource Security
 The sub-recsource security hash used in the stylesheet is SHA-512.
+
+## Image and Artwork Credits
+
