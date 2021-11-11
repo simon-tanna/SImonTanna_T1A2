@@ -57,12 +57,7 @@ a:visited {
 
 .navbar a:hover::after {
   transform: scaleX(1);
-  /* transform-origin: bottom left; */
 }
-
-/* .navbar a:hover {
-  opacity: 0.7;
-} */
 
 .social-links {
   padding: 0.5rem;
@@ -81,20 +76,6 @@ a:visited {
 .active {
   opacity: 0.7;
 }
-
-/* #homenav::after {
-  content: "|";
-  color: #226f54;
-  font-weight: 700;
-  padding-left: 30px;
-  opacity: 1;
-} */
-
-/* #mid-button::after {
-  content: "|";
-  color: #226f54;
-  font-weight: 700;
-} */
 
 /* Here is the styling for the footer */
 footer {
@@ -161,10 +142,10 @@ footer {
 
 #professional {
   font-family: 'Bodoni Moda', Garamond, serif;
-  /* color: black; */
   font-size: 32px;
 }
 
+/* Here is the code for the text colour animation */
 @keyframes creative {
   0%    {color: #0c0a3eff;}
   20%   {color: #da2c38ff;}
@@ -255,8 +236,6 @@ footer {
   align-items: flex-start;
   width: 100%;
   flex-wrap: wrap;
-  /* margin-left: 8px; */
-  /* padding-right: 6px; */
 }
 
 .contact-details-header {
@@ -283,8 +262,6 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  /* padding-left: 1px;
-  padding-right: 1px; */
 }
 
 .resume-image {
@@ -301,6 +278,10 @@ footer {
 .resume-link {
   display: inline-block;
   position: relative;
+}
+
+.resume-link:hover {
+  opacity: 0.6;
 }
 
 .resume-subhead {
@@ -351,6 +332,7 @@ footer {
   transition: opacity 0.6s;
 }
 
+/* This is the code for the blog link hover opactiy */
 .blog-image:hover {
   opacity: 0.6;
 }
@@ -380,12 +362,13 @@ footer {
   font-size: 20px;
 }
 
+/* This is the code for the box shadow hover animations */
 .blog1-link {
   transition: box-shadow 0.6s;
 }
 
 .blog1-link:hover {
-  box-shadow: 0 0 4px 4px #226f54ff;
+  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
 }
 
 .blog2-link {
@@ -393,7 +376,7 @@ footer {
 }
 
 .blog2-link:hover {
-  box-shadow: 0 0 4px 4px #226f54ff;
+  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
 }
 
 .blog3-link {
@@ -401,7 +384,7 @@ footer {
 }
 
 .blog3-link:hover {
-  box-shadow: 0 0 4px 4px #226f54ff;
+  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
 }
 
 .blog4-link {
@@ -409,7 +392,7 @@ footer {
 }
 
 .blog4-link:hover {
-  box-shadow: 0 0 4px 4px #226f54ff;
+  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
 }
 
 .blog5-link {
@@ -417,7 +400,7 @@ footer {
 }
 
 .blog5-link:hover {
-  box-shadow: 0 0 4px 4px #226f54ff;
+  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
 }
 
 /* This is the generic styling for the child blog pages */
@@ -447,8 +430,14 @@ footer {
 .back {
   margin: 1.5rem;
   align-self: center;
+  font-size: 18px;
 }
 
+#back-to-blog a:hover {
+  opacity: 0.6;
+}
+
+/* This is the before and after bars wrapping the back to blog main link */
 #back-to-blog::before {
   content: "|";
   color: #226f54;
@@ -574,17 +563,11 @@ footer {
   }
 
   .navbar a {
-    /* display: inline-flex; */
     align-content: space-between;
     padding: 0.6rem;
     text-align: center;
     font-size: 26px;
-    transition: opacity 0.2s;
   }
-
-  /* .navbar a:hover {
-    opacity: 0.7;
-  } */
 
   .active {
     opacity: 0.6;
@@ -597,11 +580,7 @@ footer {
   }
 /* Here is the styling for the index.html */
   .intro {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 100%; */
   }
 
   .intro-container {
@@ -620,7 +599,6 @@ footer {
   }
 
   .simon-headshot {
-    /* display: inline-flex; */
     max-width: 100%;
     height: auto;
   }
@@ -632,16 +610,12 @@ footer {
   }
 
   #headshot figure {
-    /* display: flex; */
     align-items: center;
   }
 
   /* Here is the styling for the about.html */
-
   #about {
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
   }
 
   .simon-about-image img {
@@ -674,22 +648,16 @@ footer {
 
   /* Here is the styling for the contact.html */
   .contact {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  flex-direction: row;
     justify-content: space-between;
-    /* padding-left: 8px; */
     padding-right: 8px;
   }
 
   .contact-image {
-    display: flex;
     width: 550px;
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column;
     width: 65%;
     padding-left: 16px;
   }
@@ -713,14 +681,11 @@ footer {
 
     /* Here is the styling for the resume.html */
   .resume {
-    display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
   }
 
   .resume-image {
-    display: flex;
     width: 550px;
   }
 
@@ -747,15 +712,11 @@ footer {
 
   /* This is the styling for blog.html */
   .blog-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
     margin: 12px;
   }
 
   .blog-container {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 2rem;
@@ -763,7 +724,6 @@ footer {
 
   .blog-header {
     font-size: 44px;
-    margin-top: 1rem;
     margin-bottom: 1rem;
   }
   
@@ -773,7 +733,6 @@ footer {
   }
 
   #blog-title {
-    text-align: center;
     font-size: 26px;
   }
 
@@ -786,7 +745,6 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog-mid-links {
@@ -794,7 +752,6 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog-bottom-links {
@@ -802,7 +759,6 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog1-link {
@@ -826,39 +782,19 @@ footer {
   }
 
   /* This is the generic styling for the child blog pages */
-  #blog {
-    margin: 1rem;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  .blog-content {
-    display: flex;
-    flex-direction: column;
-  }
-
   .blog-title {
-    text-align: center;
     font-size: 36px;
   }
 
   .blog-date {
-    text-align: center;
     font-size: 22px;
   }
 
-  /* This is the stying for blog1.html */
-  .blog-1-img {
-    max-width: 60%;
+  .back {
+    font-size: 26px;
   }
 
-  .blog-1-article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+  /* This is the stying for blog1.html */
 
   .blog-1-para-1 {
     padding-right: 4rem;
@@ -884,7 +820,6 @@ footer {
   }
 
   .blog-5-aside {
-    /* font-size: 18px; */
     padding-left: 18px;
   }
 
@@ -893,10 +828,6 @@ footer {
   }
 
   /* This is the stying for blog4.html and blog3.html */
-  .blog-4-img {
-    max-width: 60%;
-  }
-
   .blog-4-article {
     font-size: 20px;
   }
@@ -923,38 +854,16 @@ footer {
 /* This is the media breakpoint for Tablet view */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   /* This is the styling for the navbar */
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
 
   .logo {
     height: 120px;
-    margin-bottom: 0.5rem;
-    padding-top: 0.5rem;
   }
 
   .navbar a {
-    padding: 0.5rem;
     font-size: 24px;
   }
 
-  /* .navbar a:hover {
-    opacity: 0.7;
-  } */
-  
-  .social-links {
-    padding: 0.5rem;
-  }
-
-  .social-links img {
-    height: 40px;
-  }
-
   .navbar {
-    text-align: center;
     padding-top: 8px;
   }
 
@@ -964,44 +873,15 @@ footer {
     font-size: 40px;
   }
 
-
-  /* Here is the styling for the footer */
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 0.5rem;
-    align-content: flex-end;
-  }
-
-  .nav-footer-all {
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-direction: column;
-  }
-
-  .socials-footer {
-    display: flex;
-    justify-content: flex-end;
-  }
-
   /* Here is the styling for about.html */
   #about {
-    display: flex;
-    flex-direction: column;
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .simon-about-image img {
-    display: flex;
     max-width: 90%;
     align-items: center;
-  }
-
-  .simon-about-image-header {
-    text-align: center;
   }
 
   .simon-about-image {
@@ -1020,11 +900,6 @@ footer {
   }
 
   /* Here is the styling for contact.html */
-  .contact {
-    display: flex;
-    flex-direction: column;
-  }
-
   #contact-container img {
     display: flex;
     width: 100%;
@@ -1032,9 +907,6 @@ footer {
   }
 
   .contact-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin-right: 0;
   }
 
@@ -1057,9 +929,6 @@ footer {
 
   /* Here is the styling for resume.html*/
   .resume {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
     padding-left: 4px;
     padding-right: 4px;
@@ -1072,7 +941,6 @@ footer {
   }
 
   .resume-pdf {
-    text-align: center;
     font-size: 1.7rem;
   }
 
@@ -1087,9 +955,6 @@ footer {
 
   /* This is the styling for blog.html */
   .blog-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
     margin: 12px;
   }
@@ -1140,7 +1005,6 @@ footer {
     justify-content: space-between;
     flex-direction: row;
     justify-content: center;
-    /* flex-wrap: wrap; */
   }
 
   .blog1-link {
@@ -1169,40 +1033,19 @@ footer {
   }
 
   /* This is the generic styling for the child blog pages */
-  #blog {
-    margin: 1rem;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  .blog-content {
-    display: flex;
-    flex-direction: column;
-  }
-
   .blog-title {
-    text-align: center;
     font-size: 32px;
   }
 
   .blog-date {
-    text-align: center;
     font-size: 18px;
   }
 
+  .back {
+    font-size: 20px;
+  }
+
   /* This is the stying for blog1.html */
-  .blog-1-img {
-    max-width: 60%;
-  }
-
-  .blog-1-article {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .blog-1-para-1 {
     padding-right: 3rem;
     padding-left: 3rem;
@@ -1248,10 +1091,6 @@ footer {
     }
 
       /* This is the stying for blog4.html and blog3.html */
-  .blog-4-img {
-    max-width: 60%;
-  }
-
   .blog-4-article {
     font-size: 18px;
   }
@@ -1272,5 +1111,3 @@ footer {
 }
 
 
-
-/*# sourceMappingURL=style.css.map */
