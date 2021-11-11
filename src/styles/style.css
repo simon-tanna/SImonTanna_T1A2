@@ -67,6 +67,10 @@ a:visited {
   height: 40px;
 }
 
+.social-links img:hover {
+  opacity: 0.6;
+}
+
 .navbar {
   text-align: center;
   padding-top: 0.8rem;
@@ -98,6 +102,10 @@ footer {
 .socials-footer {
   display: flex;
   justify-content: flex-end;
+}
+
+.socials-footer img {
+  width: 40px;
 }
 
 .nav-footer {
@@ -560,6 +568,7 @@ footer {
     display: inline-flex;
     justify-content: space-between;
     border-top: hidden;
+    padding-top: 0;
   }
 
   .navbar a {
@@ -578,6 +587,11 @@ footer {
     justify-content: flex-end;
     flex-wrap: wrap;
   }
+
+  .social-links img {
+    height: 50px;
+  }
+
 /* Here is the styling for the index.html */
   .intro {
     flex-direction: row;
@@ -1109,5 +1123,4 @@ footer {
     margin-left: 1.5rem;
   }
 }
-
 
