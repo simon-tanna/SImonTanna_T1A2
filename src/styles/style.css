@@ -215,13 +215,11 @@ footer {
 }
 
 /* Here is the styling for the contact.html */
-#contact {
+.contact {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  padding-left: 1px;
-  padding-right: 1px;
 }
 
 .contact-image {
@@ -236,13 +234,14 @@ footer {
   align-items: flex-start;
   width: 100%;
   flex-wrap: wrap;
-  margin: 8px;
-  padding-right: 6px;
+  /* margin-left: 8px; */
+  /* padding-right: 6px; */
 }
 
 .contact-details-header {
   font-family: 'Esteban', Garamond, serif;
   font-size: 28px;
+  padding-left: 8px;
 }
 
 .contact-list {
@@ -649,8 +648,7 @@ footer {
   }
 
   /* Here is the styling for the contact.html */
-
-  #contact {
+  .contact {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -997,16 +995,14 @@ footer {
   }
 
   /* Here is the styling for contact.html */
-  #contact {
+  .contact {
     display: flex;
     flex-direction: column;
-    padding-left: 4px;
-    padding-right: 4px;
   }
 
-  .contact-container img {
+  #contact-container img {
     display: flex;
-    max-width: 90%;
+    width: 100%;
     align-items: center;
   }
 
@@ -1014,6 +1010,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 0;
   }
 
   .contact-details-header {
