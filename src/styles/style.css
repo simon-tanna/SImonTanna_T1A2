@@ -311,13 +311,11 @@ footer {
 }
 
 /* This is the styling for blog.html */
-#blog-main {
+.blog-main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 
 .blog-image {
@@ -347,6 +345,8 @@ footer {
 .blog-subheader {
   font-size: 22px;
   text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 #blog-title {
@@ -395,8 +395,7 @@ footer {
 }
 
 /* This is the generic styling for the child blog pages */
-
-#blog {
+.blog {
   margin: 1rem;
   padding: 1rem;
   display: flex;
@@ -721,7 +720,7 @@ footer {
   }
 
   /* This is the styling for blog.html */
-  #blog-main {
+  .blog-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1061,7 +1060,7 @@ footer {
   }
 
   /* This is the styling for blog.html */
-  #blog-main {
+  .blog-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
