@@ -258,13 +258,13 @@ footer {
 }
 
 /* Here is the styling for resume.html*/
-#resume {
+.resume {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  padding-left: 1px;
-  padding-right: 1px;
+  /* padding-left: 1px;
+  padding-right: 1px; */
 }
 
 .resume-image {
@@ -275,6 +275,7 @@ footer {
 
 .resume-pdf {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .resume-subhead {
@@ -311,7 +312,6 @@ footer {
 }
 
 /* This is the styling for blog.html */
-
 #blog-main {
   display: flex;
   flex-direction: column;
@@ -689,8 +689,7 @@ footer {
   }
 
     /* Here is the styling for the resume.html */
-
-  #resume {
+  .resume {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -716,6 +715,11 @@ footer {
 
   .resume-article {
     font-size: 20px;
+  }
+
+  .resume-pdf {
+    text-align: center;
+    font-size: 2rem;
   }
 
   /* This is the styling for blog.html */
@@ -1030,7 +1034,7 @@ footer {
   }
 
   /* Here is the styling for resume.html*/
-  #resume {
+  .resume {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1047,6 +1051,7 @@ footer {
 
   .resume-pdf {
     text-align: center;
+    font-size: 1.7rem;
   }
 
   .resume-subhead {
