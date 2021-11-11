@@ -186,7 +186,6 @@ footer {
 }
 
   /* Here is the styling for about.html */
-
 #about {
   display: flex;
   flex-direction: column;
@@ -216,7 +215,6 @@ footer {
 }
 
 /* Here is the styling for the contact.html */
-
 #contact {
   display: flex;
   flex-direction: column;
@@ -260,7 +258,6 @@ footer {
 }
 
 /* Here is the styling for resume.html*/
-
 #resume {
   display: flex;
   flex-direction: column;
@@ -291,6 +288,26 @@ footer {
 
 .resume-article {
   font-size: 16px;
+}
+
+.work-list {
+  font-weight: 700;
+}
+
+#retail-skills {
+  font-weight: normal;
+}
+
+#govt-skills {
+  font-weight: normal;
+}
+
+#training-skills {
+  font-weight: normal;
+}
+
+#entertain-skills {
+  font-weight: normal;
 }
 
 /* This is the styling for blog.html */
