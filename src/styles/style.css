@@ -99,6 +99,10 @@ footer {
   align-content: flex-end;
 }
 
+.nav-footer-all a:hover {
+  opacity: 0.6;
+}
+
 .socials-footer {
   display: flex;
   justify-content: flex-end;
