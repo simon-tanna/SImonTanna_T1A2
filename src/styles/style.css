@@ -229,6 +229,10 @@ footer {
   font-size: 18px;
 }
 
+.simon-about {
+  padding: 0 4px;
+}
+
 /* Here is the styling for the contact.html */
 .contact {
   display: flex;
