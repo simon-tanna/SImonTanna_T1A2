@@ -226,6 +226,12 @@ footer {
 }
 
 .contact-image {
+  display: none;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.contact-image-small {
   display: flex;
   max-width: 100%;
   opacity: 0.8;
@@ -266,9 +272,15 @@ footer {
 }
 
 .resume-image {
-  display: flex;
+  display: none;
   max-width: 100%;
   opacity: 0.8;
+}
+
+.resume-image-small {
+  display: flex;
+  max-width: 100%;
+  opacity: 0.7;
 }
 
 .resume-pdf {
@@ -690,6 +702,13 @@ footer {
 
   .contact-image {
     width: 550px;
+    display: flex;
+  }
+
+  .contact-image-small {
+    display: none;
+    max-width: 100%;
+    opacity: 0.8;
   }
 
   .contact-details {
@@ -729,6 +748,11 @@ footer {
 
   .resume-image {
     width: 550px;
+    display: flex;
+  }
+
+  .resume-image-small {
+    display: none;
   }
 
   .resume-content {
@@ -753,6 +777,12 @@ footer {
   }
 
   /* This is the styling for blog.html */
+  .blog {
+    margin: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .blog-main {
     justify-content: space-between;
     margin: 12px;
@@ -942,8 +972,8 @@ footer {
   }
 
   /* Here is the styling for contact.html */
-  #contact-container img {
-    display: flex;
+  .contact-image {
+    display: none;
     width: 100%;
     align-items: center;
   }
@@ -974,12 +1004,6 @@ footer {
     justify-content: space-between;
     padding-left: 4px;
     padding-right: 4px;
-  }
-
-  #resume-container img {
-    display: flex;
-    width: 100%;
-    align-items: center;
   }
 
   .resume-pdf {
