@@ -19,12 +19,12 @@ header {
 
 a:link {
   text-decoration: none;
-  color: #3f3a27ff;
+  color: #43291F;
 }
 
 a:visited {
   text-decoration: none;
-  color: #3f3a27ff;
+  color: #43291F;
 }
 
 .logo {
@@ -39,11 +39,10 @@ a:visited {
   font-weight: bold;
   display: inline-block;
   position: relative;
+  transition: opacity 0.3s;
 }
 
-/* Here is the code for the navbar underline hover animation */
-
-
+/* Here is the code for the navbar opacity hover animation */
 .navbar a:hover {
   opacity: 0.7;
 }
@@ -56,8 +55,13 @@ a:visited {
   height: 40px;
 }
 
+/* Here is the code for the social links opacity hover animation */
 .social-links img:hover {
   opacity: 0.6;
+}
+
+.social-links img {
+  transition: opacity 0.3s;
 }
 
 .navbar {
@@ -86,6 +90,10 @@ footer {
   justify-content: flex-end;
   flex-direction: column;
   align-content: flex-end;
+}
+
+.nav-footer-all a {
+  transition: opacity 0.2s;
 }
 
 .nav-footer-all a:hover {
@@ -295,6 +303,10 @@ footer {
 
 .resume-link:hover {
   opacity: 0.6;
+}
+
+.resume-link {
+  transition: opacity 0.3s;
 }
 
 .resume-subhead {
