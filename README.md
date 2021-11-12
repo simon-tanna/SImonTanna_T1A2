@@ -26,6 +26,8 @@ The website is aimed at potential employers looking to engage a dev/IT professio
 
 #### **Back End**
 - Netlify
+- Github
+- Git
 
 #### **UX/UI**
 - Balsamiq
