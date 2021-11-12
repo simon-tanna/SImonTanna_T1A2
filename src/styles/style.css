@@ -682,6 +682,12 @@ footer {
     padding-right: 8px;
   }
 
+  #contact-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
   .contact-image {
     width: 550px;
   }
@@ -712,6 +718,13 @@ footer {
   .resume {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  /* This makes the image stick to the top of the page when scrolling */
+  #resume-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
   }
 
   .resume-image {
