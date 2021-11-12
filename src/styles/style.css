@@ -527,7 +527,7 @@ footer {
 .blog-5-para-2 {
   margin-right: 0.8rem;
   margin-left: 0.8rem;
-} 
+}
 
 .blog-5-aside {
   margin-right: 0.8rem;
@@ -564,7 +564,7 @@ footer {
 .blog-4-para-2 {
   margin-right: 0.8rem;
   margin-left: 0.8rem;
-} 
+}
 
 .blog-3-conclusion {
   font-weight: bold;
@@ -614,7 +614,7 @@ footer {
     transform-origin: bottom center;
     transition: transform 0.2s ease-out;
   }
-  
+
   .navbar a:hover::after {
     transform: scaleX(1);
   }
@@ -845,7 +845,7 @@ footer {
     font-size: 44px;
     margin-bottom: 1rem;
   }
-  
+
   .blog-subheader {
     font-size: 26px;
     text-align: left;
@@ -937,7 +937,7 @@ footer {
   .blog-5-section {
     flex-direction: row;
   }
-  
+
   .blog-5-section img {
     max-width: 100%;
     min-width: 50%;
@@ -1081,12 +1081,14 @@ footer {
   /* Here is the styling for resume.html*/
   .resume {
     justify-content: space-between;
-    padding-left: 4px;
-    padding-right: 4px;
   }
 
   .resume-pdf {
     font-size: 1.7rem;
+  }
+
+  .resume-content {
+    padding: 0 8px;
   }
 
   .resume-subhead {
@@ -1116,7 +1118,7 @@ footer {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  
+
   .blog-subheader {
     font-size: 26px;
     text-align: left;
@@ -1217,14 +1219,14 @@ footer {
     .blog-5-article {
       font-size: 18px;
     }
-  
+
     .blog-5-para-1 {
       padding-right: 1.5rem;
       padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
     }
-  
+
     .blog-5-para-2 {
       padding-right: 1.5rem;
       padding-left: 1.5rem;
