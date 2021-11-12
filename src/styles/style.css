@@ -476,6 +476,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-size: 18px;
 }
 
 .blog-1-para-1 {
@@ -888,6 +889,10 @@ footer {
     margin-left: 1.5rem;
   }
 
+  .blog-1-article {
+    font-size: 22px;
+  }
+
 /* This is the stying for blog5.html */
   .blog-5-section {
     flex-direction: row;
@@ -895,6 +900,7 @@ footer {
   
   .blog-5-section img {
     max-width: 100%;
+    min-width: 50%;
   }
 
   .blog-5-aside {
@@ -913,15 +919,21 @@ footer {
   .blog-4-para-1 {
     padding-right: 4rem;
     padding-left: 4rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .blog-4-img {
+    max-width: 50%;
+    padding: 0.8rem 2rem 0.8rem 2rem;
   }
 
   .blog-4-para-2 {
     padding-right: 4rem;
     padding-left: 4rem;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    align-self: flex-start;
   }
 
   footer {
@@ -1132,6 +1144,10 @@ footer {
     margin-left: 1.5rem;
   }
 
+  .blog-1-article {
+    font-size: 20px;
+  }
+
     /* This is the stying for blog5.html */
     .blog-5-img {
       max-width: 80%;
@@ -1179,6 +1195,10 @@ footer {
     padding-left: 1.5rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+  }
+
+  .blog-4-img {
+    max-width: 300px;
   }
 }
 
