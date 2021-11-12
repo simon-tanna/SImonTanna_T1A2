@@ -664,6 +664,12 @@ footer {
   }
 
   .simon-about-image {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  .simon-about-image {
     display: inline-flex;
     flex-direction: column-reverse;
     margin-top: 19px;
