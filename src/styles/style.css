@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: 'Poppins', Tahoma, sans-serif;
   color: #262217ff;
+  overflow-x: hidden;
 }
 
  /* Here is the styling for the navbar */
@@ -66,8 +67,10 @@ a:visited {
 
 .navbar {
   text-align: center;
-  padding-top: 0.8rem;
-  border-top: 2px dotted #226f54;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: 2px solid #43291F;
+  border-bottom: 2px solid #43291F;;
 }
 
 .active {
@@ -135,7 +138,7 @@ footer {
   margin-left: 0.8rem;
   margin-right: 0.8rem;
   font-family: 'Esteban', Garamond, serif;
-  font-size: 34px;
+  font-size: 38px;
 }
 
 .intro-container {
@@ -186,13 +189,14 @@ footer {
 
 #human {
   font-size: 30px;
+  margin-bottom: 1.2rem;
 }
 
 .simon-headshot {
   max-width: 100%;
 }
 
-.headshot {
+#headshot {
   align-items: center;
 }
 
@@ -586,6 +590,7 @@ footer {
     display: inline-block;
     justify-content: space-between;
     border-top: hidden;
+    border-bottom: hidden;
     padding-top: 0;
   }
 
@@ -644,6 +649,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
     align-content: flex-start;
+    margin-left: 5px;
   }
 
   .intro-head {
@@ -659,12 +665,13 @@ footer {
 
   #headshot {
     display: flex;
-    margin: 2px;
+    margin: 2px 0 2px 2px;
     min-width: 50%;
   }
 
   #headshot figure {
     align-items: center;
+    /* margin-right: 0; */
   }
 
   #professional {
@@ -685,6 +692,7 @@ footer {
 
   #human {
     font-size: 40px;
+    margin-bottom: 3rem;
   }
 
   /* Here is the styling for the about.html */
@@ -992,7 +1000,28 @@ footer {
   /* here is the styling for the index */
 
   .intro-head {
-    font-size: 40px;
+    font-size: 46px;
+    padding: 26.8px;
+  }
+
+  #professional {
+    font-size: 38px;
+  }
+
+  #creative {
+    font-size: 54px;
+  }
+
+  #stylish {
+    font-size: 54px;
+  }
+
+  #responsive {
+    font-size: 38px;
+  }
+
+  #human {
+    font-size: 36px;
   }
 
   /* Here is the styling for about.html */
