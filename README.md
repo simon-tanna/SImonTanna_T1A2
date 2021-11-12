@@ -87,3 +87,34 @@ The sub-recsource security hash used in the stylesheet is SHA-512.
 
 ## Image and Artwork Credits
 
+### **blog.html**
+Blog-1-image.jpg
+- Image by Pawel Czerwinski via https://unsplash.com/photos/eybM9n4yrpE
+
+blog-2-image.jpg
+- Image by Sandy Millar via https://unsplash.com/photos/yvpexJFLTSU
+
+blog-3-image.jpg
+- Image by Nathan Dumlao via https://unsplash.com/photos/l59fmhtprIE
+
+blog-4-image.jpg
+- Image by Nick Karvounis via https://unsplash.com/photos/TkZYCXmrKK4
+
+blog-5-image.jpg
+- Image by Matt Duncan via https://unsplash.com/photos/IUY_3DvM__w
+
+### **resume.html**
+resume-pic.jpg
+- Image by Safar Safarov via https://unsplash.com/photos/koOdUvfGr4c
+
+### **contact.html**
+contact-me.jpg
+- Image by Michal Biernat via https://unsplash.com/photos/h0xEUQXzU38
+
+### **Social Media Icons**
+icons8-github-96.png    
+icons8-instagram-96.png   
+icons8-linkedin-96.png
+- Icons by icons8 via https://icons8.com/
+
+
