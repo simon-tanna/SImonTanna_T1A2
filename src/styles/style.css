@@ -34,10 +34,10 @@ a:visited {
 }
 
 .navbar a {
-  padding: 0.5rem;
+  padding: 0.4rem;
   font-size: 20px;
   font-weight: bold;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   transition: opacity 0.3s;
 }
@@ -57,7 +57,7 @@ a:visited {
 
 /* Here is the code for the social links opacity hover animation */
 .social-links img:hover {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .social-links img {
@@ -583,7 +583,7 @@ footer {
   }
 
   .navbar {
-    display: inline-flex;
+    display: inline-block;
     justify-content: space-between;
     border-top: hidden;
     padding-top: 0;
@@ -591,7 +591,7 @@ footer {
 
   .navbar a {
     align-content: space-between;
-    padding: 0.6rem;
+    padding: 0.6rem 0.6rem 0.2rem 0.6rem;
     text-align: center;
     font-size: 26px;
   }
@@ -601,7 +601,7 @@ footer {
     content: '';
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 3.5px;
     bottom: 0;
     left: 0;
     transform: scaleX(0);
@@ -619,7 +619,7 @@ footer {
   }
 
   .active {
-    opacity: 0.6;
+    opacity: 0.7;
   }
 
   .social-links {
@@ -649,7 +649,7 @@ footer {
   .intro-head {
     display: flex;
     justify-content: flex-start;
-    font-size: 44px;
+    font-size: 50px;
   }
 
   .simon-headshot {
@@ -665,6 +665,26 @@ footer {
 
   #headshot figure {
     align-items: center;
+  }
+
+  #professional {
+    font-size: 40px;
+  }
+
+  #creative {
+    font-size: 58px;
+  }
+
+  #stylish {
+    font-size: 58px;
+  }
+
+  #responsive {
+    font-size: 40px;
+  }
+
+  #human {
+    font-size: 40px;
   }
 
   /* Here is the styling for the about.html */
