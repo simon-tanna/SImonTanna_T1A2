@@ -1003,11 +1003,19 @@ footer {
   }
 
   .blog-5-aside {
-    padding-left: 18px;
+    margin: 0 60px;
   }
 
   .blog-5-article {
     font-size: 20px;
+  }
+
+  .blog-5-para-1 {
+    font-size: 24px;
+  }
+
+  .blog-5-para-2 {
+    font-size: 24px;
   }
 
   /* This is the stying for blog4.html and blog3.html */
@@ -1277,15 +1285,12 @@ footer {
       max-width: 80%;
     }
 
-    .blog-5-article {
-      font-size: 18px;
-    }
-
     .blog-5-para-1 {
       padding-right: 1.5rem;
       padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
+      font-size: 20px;
     }
 
     .blog-5-para-2 {
@@ -1293,6 +1298,7 @@ footer {
       padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
+      font-size: 20px;
     }
 
     .blog-5-aside {
@@ -1300,6 +1306,7 @@ footer {
       padding-left: 1.5rem;
       margin-right: 1.5rem;
       margin-left: 1.5rem;
+      font-size: 20px;
     }
 
       /* This is the stying for blog4.html and blog3.html */
