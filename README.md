@@ -17,7 +17,7 @@ Additional information such as a short biography, resumè, blog and contact deta
 The website is aimed at potential employers looking to engage a dev/IT professional. It is assumed in the content of the website that the employer has technical knowledge of IT, software development and coding.   
 
 ## Site Map
-![Sitemap Image](./docs/sitemap.png)
+![Sitemap Image](./docs/Sitemap.png)
 
 ## Tech Stack 
 #### **Front End**
