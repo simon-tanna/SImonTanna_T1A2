@@ -1,0 +1,737 @@
+commit ca8f039e5cb89a0af5f204c2fe0352b2f27684e8
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 12:17:12 2021 +1000
+
+    added sha512 sri for style.css to all html pages
+
+commit 1ebf66e838ee2a7822a75a1ca8b8343a69b1b9d9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 12:07:23 2021 +1000
+
+    removed redundant /aside from blog5
+
+commit f70ad51a721e257e905c5b16bc559b656f491ba6
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 12:05:58 2021 +1000
+
+    moved article element to encase headers in blog 4 and blog 5. adjusted font size for aside in blog5
+
+commit eb5bf1b77c996c9702cdee745807f3cac7c00695
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:58:39 2021 +1000
+
+    removed redundant /p and shifted article element to encase headers in blog3
+
+commit 817502f8111f49a418a1d7921d0206af2e3cb048
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:51:57 2021 +1000
+
+    enclosed blog2 headers in article tag
+
+commit c7a165a00714fb49ef6423524a938fe3e6c2c1dc
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:42:40 2021 +1000
+
+    fixed class=active spacing issue in navbar blog1
+
+commit 0f1cc8942c0dc55a64e8a58c4e0e02ece3f41725
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:41:26 2021 +1000
+
+    fixed alignment and border code for playlists in blog1. adjusted font sizes for responsive media break points in blog1
+
+commit 5c424f96bd6b8bca7f89233303243d359986d1ab
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:06:24 2021 +1000
+
+    removed redundant ids from navbar in blog1
+
+commit d48faaaaa550a4ad6cfa0e947df9859adecf1393
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 11:02:01 2021 +1000
+
+    removed breaks from lists in contact. removed space in ?subject command in email mailto. added hover animation to contact links
+
+commit 2447e14aa7255dfc964db7cdabd1ca998edacc17
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:44:28 2021 +1000
+
+    renamed id=blog-title to class=blog-title-1 to create valid syntax for website. adjusted code in CSS to reflect this on blog main page. adjusted bottom padding of blog-link boxes
+
+commit 112741df772a5396c8c23466e8493dc80e249737
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:35:56 2021 +1000
+
+    moved article tag in resume page to enclose header within
+
+commit 93718133c38f3f9b2c9cef18f13ccf4cc9e94eb9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:33:12 2021 +1000
+
+    adjusted left and right padding to resume page. moved p tag so lists were not enclosed in the p1
+
+commit 3a11b189766211f4c331f433e7c8e455a3c18d59
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:22:03 2021 +1000
+
+    removed figcaption tags from all blog link text due to invalid syntax when presenting as a hyperlink. replaced with h4 and h3 respectivly. removed redundant a links from text
+
+commit 584df33f52375a708d81791daa8d0209937784c4
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:14:20 2021 +1000
+
+    removed unnecessary links from blog 1 link in blogs main
+
+commit 2ef74c786709000bd10bc3272864e25dfb177e1d
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:08:43 2021 +1000
+
+    removed unnecessary /article tag from aboutme
+
+commit 23ec5fe1fd58057dd55213102db3d4254c54472e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:06:34 2021 +1000
+
+    removed unnecessary blog link a tags from blog links
+
+commit 7660f9b4ac489e540e7bdf5085bfbddeba2278d4
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 10:01:41 2021 +1000
+
+    shifted article tag to enclose the h2 in aboutme to improve accessibility
+
+commit 41addbfd918699ad53489e38964fbfefa0d24cbe
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:53:00 2021 +1000
+
+    added meta name=description and content= tags to the head of all pages
+
+commit 53592b05ef1460567a6c4ed1b68e9fddd3b028b2
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:43:27 2021 +1000
+
+    renamed logo file to remove unnecessary spaces in file name. adjusted code in all pages to reflect this file name change
+
+commit 5dc712a125b9856d5081e4635e1a93149788dbef
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:37:38 2021 +1000
+
+    added blog child page hyperlinks to enclosing containers for all blog post links in blog main page
+
+commit d84a655be2eb5450bb89542e1b77e5ec6748fd1c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:28:15 2021 +1000
+
+    adjusted left and right padding for text in aboutme
+
+commit e4e876b3da3c711257b18e343c1c6916fe8b39fc
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:24:39 2021 +1000
+
+    fixed image width to 100% in resume tablet view. adjusted main article padding
+
+commit ca2d3264cc2170880d805f34219661aa8ed8dab1
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 13 09:19:10 2021 +1000
+
+    finalised correct font sizes for index.html. enlarged header font in all pages and skills fonts in tablet and desktop views
+
+commit d56311e69d2472277b56c3fa831c9ca42b563611
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 21:34:07 2021 +1000
+
+    removed integrity as adjustments to css needed to be made. Increased font size in skills list in index.html
+
+commit 459baaefb137fec45274243c5a1674a7becc14ba
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 15:58:31 2021 +1000
+
+    added image credits to README
+
+commit 7964700839d69db2b8ffa56568b7ca79eed8745c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 15:34:51 2021 +1000
+
+    corrected lang= syntax in all pages
+
+commit 52340a098ff193bfcbef828d2c0258fdc848695e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 15:26:58 2021 +1000
+
+    added sha512 integrity to all child pages for css link
+
+commit 778e8342c72bd731c48f24aa3fd673a1b6692d5e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 15:17:35 2021 +1000
+
+    added line breaks to the contact lists
+
+commit ff37082ae177a342440e35c4e4bd37e44b165527
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 15:11:57 2021 +1000
+
+    added transition time for navbar footer, social and download resume links
+
+commit 1e51673dcff220c45e595caff6c4f309384c0fb0
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 14:55:29 2021 +1000
+
+    cropped blog images for child pages to make view better. adjusted font size of blog 1 in all media breakpoints
+
+commit 08a9aec91d6c90deee87f62e86d56c61aa3c1a25
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 14:17:18 2021 +1000
+
+    made aboutme image sticky to top in desktop view
+
+commit be4f39a19cf9c669743bba1b6682ac22b7937df4
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 14:06:05 2021 +1000
+
+    hid large artwork in resume and contact and replaced with smaller images in mobile and tablet view
+
+commit 5d26ce9c6bd3e75b1d3b86560031ad16711b5e30
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 13:04:30 2021 +1000
+
+    made resume image sticky to top of desktop view when scrolling
+
+commit 850979dcbb4649cfe5aeeecab7687cc512ec26ea
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 12:14:41 2021 +1000
+
+    added git and github to readme stack
+
+commit a0a085a6eada3ad042bdb8c335a3cd06c11d5b37
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 12 10:51:05 2021 +1000
+
+    remove navbar underline animation from mobile and tablet view. reverted to hover opacity
+
+commit f04a3483877d780d1924c79bbf39b87adf0a8d5c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 15:27:40 2021 +1000
+
+    added hover opacity animation to footer links
+
+commit 7b63c07d4f28cee9b2cc19be5f881a23c0c0b781
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 15:22:45 2021 +1000
+
+    adjusted navbar position for desktop view. changed social media icons to higher resolution images. adjusted social media image icon size in desktop and mobile views
+
+commit f1c6b6fd845e72594929c4d6b535c265c9f8d0e3
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 14:55:13 2021 +1000
+
+    removed lines of unnecessary code in css. added hover opacity effect to resume download link and back to blog main link
+
+commit 883ca77fba7c2acaee52f1fa2417c899d4165270
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 14:04:58 2021 +1000
+
+    added comments to key elements of html code
+
+commit d0203acc205ddc63ae49ee474cd60293a95bf9f6
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 13:48:02 2021 +1000
+
+    added navbar underline animation
+
+commit f83443c0b28fe4a4450a10b8caa3a66d13ff0f56
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 13:16:10 2021 +1000
+
+    fixed id and class attributes in blog, about and contact pages
+
+commit bbebd45ca3390a5ad04c15c00074afd34482c2ee
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 12:57:58 2021 +1000
+
+    fixed right alignment issue with contact page tablet view
+
+commit 9d94f607d30d94c3dd5daed722c0b39f2aa588ff
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 12:06:17 2021 +1000
+
+    changed resume id tag to class in main element of resume page
+
+commit 1e9ce59535e5d206116a9123bc06cb0cea18b43e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 11:41:47 2021 +1000
+
+    adjusted font weight in resume skills list
+
+commit ac339924e15f4155ebe4114bdcc2771052e777f5
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 11:33:53 2021 +1000
+
+    created docs directory. added resume pdf to docs directory. added link in resume page to pdf
+
+commit cda3a93ed7fb67ebbadfb8f1700f7959e0b0afa2
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 11:21:52 2021 +1000
+
+    added resume content and skills
+
+commit c29f10b81d6f8219043809c89c9f40c188fb0edb
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 11:00:50 2021 +1000
+
+    uploaded final version of wireframes presentation
+
+commit f403ad0aa52999f956664c3954d2cb0d4bc68d9d
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 11 09:47:51 2021 +1000
+
+    updated colours in sitemap. added work in progress version of slidedeck pdf
+
+commit dfa4811739a97ff7c9e8bc2b38ec6406de6a7d0c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Wed Nov 10 21:03:51 2021 +1000
+
+    moved ppt files to relevant folders. added version 1 of slide deck to ppt directory
+
+commit 6546d9f2bf7931139210be3a4a4f51e8a8e9e5d3
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Wed Nov 10 09:21:50 2021 +1000
+
+    added sitemap to readme and SRI info
+
+commit d395f10a324839f4e653ba549164fa204ba71584
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 21:33:14 2021 +1000
+
+    added further site navigation content to readme
+
+commit 37f554f5ca192d8bfb00551ef43fda6776875a71
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 21:29:56 2021 +1000
+
+    added hover opactity to blog page links. added site navigation content to readme
+
+commit 7ff5579e8a73297ec3d15fce2b75101f5cc145c6
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 21:15:29 2021 +1000
+
+    added alternative text to embedded playlists in blog1. added accessibility info to readme
+
+commit 847e555e332b255e8e14acddf7495db224b37a83
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 21:06:12 2021 +1000
+
+    added blog information and screenshots to readme. added colour palette info to readme
+
+commit 68fefc799e481ac0fe07e8b27975c33517e5b315
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 14:05:07 2021 +1000
+
+    added about page website screenshot
+
+commit 8e2cd6013369f5504566ca2957487bf47d4919d4
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 13:48:28 2021 +1000
+
+    added website index screenshot
+
+commit 9cc45f32543cd994f6ad4404dd0c97d44545bd2f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 08:25:32 2021 +1000
+
+    added tech stack info and started design features with screenshots in readme
+
+commit 9d4800acf0028f9567f9fb564a8496d944e2d5f0
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Tue Nov 9 06:22:31 2021 +1000
+
+    added markdown titles, purpose, target audience and tech stack
+
+commit dec373651461473cfed052de1d3a29a11add7d94
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 8 21:39:51 2021 +1000
+
+    added content to the readme.md file
+
+commit a623bf32a4e7371947df880c40fecd50923e43cd
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 8 13:28:43 2021 +1000
+
+    added some content to resume.html
+
+commit 002e7b76f6a1462cabe68df289519fe93cf0f7a3
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 8 13:19:39 2021 +1000
+
+    changed resume headers on nav bars to My Work
+
+commit 18a83566bd66cb3fd95710ee63a0ce97e24903f9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sun Nov 7 12:46:31 2021 +1000
+
+    added titles to all blog child pages. added blog1 image to blog parent.
+
+commit 56efed0f9239de4bdd42191bd057482d14b980e2
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sun Nov 7 09:51:01 2021 +1000
+
+    added content to blog1.html. Embedded playlists
+
+commit 7a0b20aa40d8be04d0aa52cfbaa6a77c1255e754
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sun Nov 7 09:35:16 2021 +1000
+
+    added content to aboutme.html
+
+commit c77381fb3a8e33e1820ee86152a883f6780b609b
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 21:23:50 2021 +1000
+
+    added background colour to footer. removed background colour hover effect from navbar and replaced with text opacity for links
+
+commit 7b311048c17901ba221bc146ed28c9f145c907d1
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 21:09:36 2021 +1000
+
+    added transtion to hover navbar links in desktop view
+
+commit eb73c78ab984e7403e2daa6c03d22ac7a99cca2a
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 21:01:53 2021 +1000
+
+    added animation colors to creative text on index. added hover shadow transition to blog parent page links
+
+commit e823c5f3245e4090f9134ee0064c72dd80db3125
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 15:59:20 2021 +1000
+
+    added content and styling to blog 2
+
+commit e7f537ab83a5e60b338922c246afdba7cb88724f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 15:24:06 2021 +1000
+
+    added content and styling for blog3
+
+commit 924f0ab70a4d8865c8d35d214b1109d7e42c5495
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 14:48:37 2021 +1000
+
+    added blog4 content and styling
+
+commit 1837f826ef1c3c812d73ec46c545dc3b7113a3b8
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 14:09:28 2021 +1000
+
+    adjusted font sizes for blog page in all media types
+
+commit f1ed8ecc42790055bd49f02324b5ed9512115ee8
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 13:17:52 2021 +1000
+
+    added back-to-blog-main button with before and after css formatting to blog1 and blog5
+
+commit 68431326e13fe56bd3b8724e5f68185078758bbc
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 12:57:11 2021 +1000
+
+    added blog5 image to blog parent page. adjusted blog partent blog 5 date
+
+commit 00a08a7f4995a0fb5c810262a56203c8a254ffbc
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 12:27:05 2021 +1000
+
+    adjusted font size for blog 5
+
+commit 9cb4af3bf5c8f06acbdb51db5ba81033728dfcd4
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 12:11:00 2021 +1000
+
+    wrote blog5 content. adjusted media styling for blog5
+
+commit 3b52ec68eda832dba56ee0b248e09c176bc6b5c0
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 11:06:55 2021 +1000
+
+    adjusted font sizes in about page
+
+commit 3e9e15ffd791e2f76d9f11487f4f788cd5f5c125
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 10:53:04 2021 +1000
+
+    adjusted font sizes on media break points in resume
+
+commit 0d413e4aa0ff1e5e2e44128129514fa4e8ad6f11
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 10:47:25 2021 +1000
+
+    added resume artwork. adjusted resume margins
+
+commit 5f99f0af5d9607fbad27cfe5f71578178bbb5ca9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 10:36:23 2021 +1000
+
+    added contact artwork. adjusted padding on contact page. added opacity to contact image
+
+commit a56fd330355cad441eb32833e6d86491e015269d
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 10:26:38 2021 +1000
+
+    adjusted font sized and text wrapping in contact page. added subject line to email link
+
+commit e92b14e0a54fdd8d9e5617c0d23394680e3d071a
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Nov 6 09:54:11 2021 +1000
+
+    added aboutme artwork. adjusted text alignment in aboutme
+
+commit 24f827e8c1d87716f4ba10f66badc5735a7ad6f3
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 16:13:50 2021 +1000
+
+    adjusted size of logo in mobile view. added top border for navbar in mobile and tablet views
+
+commit 6daaf124d744103308e7b6b6c3241222745d2051
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 15:46:39 2021 +1000
+
+    added hover and active class styling to navbar links. amended logo links in all pages to feature correct image
+
+commit ab0b1f255033eb97cdc8a3ec7ed63bb07395b939
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 14:01:32 2021 +1000
+
+    fixed image and text alignment for index in desktop view
+
+commit 4d420f5dec741e0fdeb110bae70f732161693eba
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 13:15:11 2021 +1000
+
+    styled font of page headers, added font style to skills on index. fixed alignment issue with footer links in mobile view
+
+commit 83a8e88278fbd35acd4c9b40a1c8f5d050a78096
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 11:32:51 2021 +1000
+
+    changed sri to SHA512
+
+commit 3bfd4e7348404c0674449d7264c141a3f685564c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 11:03:58 2021 +1000
+
+    added sha384 integrity to all html pages
+
+commit d6940095205c486ade9c79420b5ae273242d1d38
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 11:00:15 2021 +1000
+
+    added sha384 integrity
+
+commit 7e3582da9fb6be4466b235e9b793216598cd1766
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 10:44:59 2021 +1000
+
+    edited colours, font styles and font sizes
+
+commit 5a7073e4ce36f3d73e3baf97de49fe5d46f4f7df
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Nov 5 09:22:11 2021 +1000
+
+    inserted headshot pic to index. added additional font types to all html heads
+
+commit fe47797f500b5e7f5fe8f986dd237921c727bb6b
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 16:54:34 2021 +1000
+
+    played around with footer style
+
+commit d333a1f6fb22cc53fa1cd521167f3aeca5c7898f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 16:27:54 2021 +1000
+
+    added css code to scss
+
+commit e26f0c4d11bb22abe93fd0015d687ea8e7cc8a30
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 16:26:41 2021 +1000
+
+    added tablet screen size to blog1 page
+
+commit c0069f0c2a05d7ce95eb9168e2d3dd6dfd52a206
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 15:55:24 2021 +1000
+
+    added tablet screen size stying to index, about, contact, resume and blog pages
+
+commit 0f0af6f2d2154f9723ca7e9fdcf5db2a33ea338a
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 14:16:55 2021 +1000
+
+    added content to blog1.html. did generic mobile styling for blog pages and specific styling for blog 1
+
+commit 1bff387bf80c3bab88f86619b232e0573c805a6b
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 13:45:45 2021 +1000
+
+    added css code to scss
+
+commit 70f8c8bb6e1207f6cffabee1f909824daa81ff02
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 13:43:38 2021 +1000
+
+    added footer content to all child pages
+
+commit 3a66871523979f0a53eb338450da5f0dcef229f1
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 13:43:29 2021 +1000
+
+    added footer content to all child pages
+
+commit 95146e64bfb96545db4de4abbc2e74d7fb23164f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 13:36:06 2021 +1000
+
+    added styles, social links and bottom nav to footer
+
+commit 775ea2cc01343d465490cbd50410b8de617c75d9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 12:14:08 2021 +1000
+
+    created extra containers for blog.html links. adjusted css properties for blog links on blog parent page.
+
+commit 541897acc52bbc8267e0e37aa39be183ef2c160f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 11:32:29 2021 +1000
+
+    added blog child page links to main blog page. added mobile styling to main blog page
+
+commit ae1ddd2aa57ebf626b35e88a17f47463742c932d
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 09:42:21 2021 +1000
+
+    started adding content to blog
+
+commit 1f15819892d18f1245e3412cb39cc53ed7cb8636
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 09:15:20 2021 +1000
+
+    updated sitemap to include child blog pages. created blog directoryin pages folder with 5 blog html files
+
+commit eb57d7f9c1f90ee723672076b45f5fbe6d7da79c
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Thu Nov 4 09:03:49 2021 +1000
+
+    added styling to resume.html for mobile and desktop view. fixed alignment in contact.html
+
+commit c0ad2ad4c36d68e38af4ad64ec58eef44ebe3f93
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Wed Nov 3 20:30:01 2021 +1000
+
+    aligned contact.html styling closely with about.html.
+
+commit d0570edae50dbdd3ec908599046d41799f658714
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Wed Nov 3 12:27:50 2021 +1000
+
+    added line in resume subhead
+
+commit 7d495f9dd5eafb62ec416afb7c47cf816dda38e9
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Wed Nov 3 12:26:32 2021 +1000
+
+    added content for resume.html. Added basic mobile view styling to contact.html and resume.html
+
+commit 91c46cf911a7b16fc62b2c0460a21cc04e97ec38
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 1 14:28:25 2021 +1000
+
+    added classes and links to contact details list
+
+commit 4dd53d39b66d4990065474bd665df921fcba9036
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 1 08:48:26 2021 +1000
+
+    added content to about.html
+
+commit bccc16538028d18c0d03255cd9e00aedb5e3aaaf
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Mon Nov 1 08:37:01 2021 +1000
+
+    added target=_blank attribute to social links on all pages
+
+commit 7a151abc04d1d24a0054b19d4259b445959fe4a1
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 19:05:10 2021 +1000
+
+    started css styling of desktop view in about.html
+
+commit a393db0491dba1c3bbeec6a3c6b9a89aa1abf6f0
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 14:58:56 2021 +1000
+
+    added holding text and temporary graphic to about.html
+
+commit 1b8be658d07eeb056b13945a7c9bcd25bf900f83
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 14:29:37 2021 +1000
+
+    added personal logo. added first font family. adjusted navbar font size. tidied intro-container alignment
+
+commit 6c4c52cdcb6d358195002024f59979eb7f5a255f
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 12:22:55 2021 +1000
+
+    added header content to about, blog, contact and resume pages. fixed internal page link directories
+
+commit cfc9a41a52440d7f7ad9c0cfc6fe113a0f8e08cc
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 11:57:45 2021 +1000
+
+    made further adjustments to css styling on index.html. adjusted text alignment in browser view. improved image scale
+
+commit 3a6a797698139fbd842e24179be1962e14d12e08
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 10:11:13 2021 +1000
+
+    added sitemap and wireframes to ppt folder
+
+commit 8c0e0d45237829f085b9a89283b1becaa84175ed
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Sat Oct 30 10:07:27 2021 +1000
+
+    started mobile design on navbar in index
+
+commit 5919cfab06121d12baf7f4b8f5e09ced72ef02a6
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 16:15:36 2021 +1000
+
+    integrated changes to style.scss
+
+commit c47a6a2f79f7ff8287cbd000fc9664a1b91ff0ee
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 16:10:08 2021 +1000
+
+    adjusted css properties to help images and text scale properly
+
+commit d63b95fcd24c3869bfeba4dc55fce0c1fe6f763e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 14:01:55 2021 +1000
+
+    added colour palette to README. transfered .css code to .scss and added -background-colour to .scss
+
+commit d3cc268131cf3a3ba68770da326ad2e2b15de79e
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 12:05:25 2021 +1000
+
+    removed .scss styling for ease of use for now. styled top navigation bar and set background colour of website
+
+commit 11b5fa5240a3712a89429090525961c378c20076
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 10:36:02 2021 +1000
+
+    added social media links and images to /docs/img folder
+
+commit d279ead6bf2899036e891a9b0fa9add2dd30fc55
+Author: simon-tanna <gcab022109@coderacademy.edu.au>
+Date:   Fri Oct 29 10:10:48 2021 +1000
+
+    Created index, about, blog, contact, resume htmls. Created .scss and .css stylesheets. Started with mock logo and navbar
