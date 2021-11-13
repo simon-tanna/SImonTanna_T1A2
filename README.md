@@ -117,4 +117,4 @@ icons8-instagram-96.png
 icons8-linkedin-96.png
 - Icons by icons8 via https://icons8.com/
 
-
+*
