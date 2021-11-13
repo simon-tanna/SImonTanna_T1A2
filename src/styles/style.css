@@ -275,8 +275,32 @@ footer {
   font-size: 18px;
 }
 
+.email-link:hover {
+  opacity: 0.7;
+}
+
 .phone-link {
   font-size: 18px;
+}
+
+.phone-link:hover {
+  opacity: 0.7;
+}
+
+.email-head {
+  padding-bottom: 20px;
+}
+
+.phone-head {
+  padding-bottom: 20px;
+}
+
+.linkedin-head {
+  padding-bottom: 20px;
+}
+
+.linkedin-head:hover {
+  opacity: 0.7;
 }
 
 /* Here is the styling for resume.html*/
@@ -788,6 +812,18 @@ footer {
 
   .phone-link {
     font-size: 24px;
+  }
+
+  .email-head {
+    padding-bottom: 24px;
+  }
+  
+  .phone-head {
+    padding-bottom: 24px;
+  }
+  
+  .linkedin-head {
+    padding-bottom: 24px;
   }
 
     /* Here is the styling for the resume.html */
