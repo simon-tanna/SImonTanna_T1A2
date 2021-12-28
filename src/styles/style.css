@@ -311,6 +311,17 @@ footer {
   justify-content: space-around;
 }
 
+.dev-portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.website-git {
+  display: flex;
+  max-width: 90%;
+  max-height: 50%;
+}
+
 .resume-image {
   display: none;
   max-width: 100%;
@@ -343,7 +354,12 @@ footer {
 
 .resume-subhead {
   font-family: 'Esteban', Garamond, serif;
-  font-size: 28px;
+  font-size: 30px;
+}
+
+.portfolio-head {
+  font-family: 'Esteban', Garamond, serif;
+  font-size: 26px;
 }
 
 .resume-content {
@@ -872,7 +888,12 @@ footer {
 
   .resume-subhead {
     font-family: 'Esteban', Garamond, serif;
-    font-size: 36px;
+    font-size: 38px;
+  }
+
+  .portfolio-head {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 32px;
   }
 
   .resume-article {
@@ -1161,7 +1182,12 @@ footer {
 
   .resume-subhead {
     font-family: 'Esteban', Garamond, serif;
-    font-size: 32px;
+    font-size: 34px;
+  }
+
+  .portfolio-head {
+    font-family: 'Esteban', Garamond, serif;
+    font-size: 30px;
   }
 
   .resume-article {
