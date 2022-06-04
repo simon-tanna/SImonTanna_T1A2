@@ -1,10 +1,10 @@
 /* The styling has been built with a mobile first design*/
 
 body {
-  background-color: #87c38fff;
+  background-color: #050A30;
   margin: 0;
   font-family: 'Poppins', Tahoma, sans-serif;
-  color: #262217ff;
+  color: #D3EDEA;
   overflow-x: hidden;
 }
 
@@ -14,24 +14,22 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #f4f0bbff;
-  font-family: 'Esteban', Garamond, serif;
+  background-color: #D3EDEA;
+  font-family: 'Poppins', Tahoma, sans-serif;
 }
 
 a:link {
   text-decoration: none;
-  color: #43291F;
+  color: #09333F;
 }
 
 a:visited {
   text-decoration: none;
-  color: #43291F;
+  color: #09333F;
 }
 
 .logo {
-  height: 110px;
-  margin-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  min-height: 180px;
 }
 
 .navbar a {
@@ -85,7 +83,7 @@ footer {
   align-items: flex-end;
   padding: 0.5rem;
   align-content: flex-end;
-  background-color: #f4f0bbff;
+  background-color: #D3EDEA;
 }
 
 .nav-footer-all {
@@ -130,19 +128,44 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  color: #262217ff;
+  color: #D3EDEA;
 }
 
 .intro-head {
   text-align: center;
   margin-left: 0.8rem;
   margin-right: 0.8rem;
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 38px;
+  margin-bottom: 5px;
+}
+
+.intro-subhead {
+  margin-top: 5px;
+  color: #95A49F;
 }
 
 .intro-container {
   text-align: center;
+}
+
+.intro-icon-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 90%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #D3EDEA;
+  padding: 10px 5px;
+}
+
+.tech-icon {
+  max-width: 20%;
+}
+
+.tech-icon {
+  max-width: 50px;
 }
 
 .skills {
@@ -213,15 +236,16 @@ footer {
 .simon-about-image img {
   display: flex;
   max-width: 100%;
+  padding-bottom: 1rem;
 }
 
 .simon-about-image-header {
   text-align: center;
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
 }
 
 .simon-about-header {
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 28px;
 }
 
@@ -262,9 +286,13 @@ footer {
 }
 
 .contact-details-header {
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 28px;
   padding-left: 8px;
+}
+
+.contact-details a {
+  color: #D3EDEA
 }
 
 .contact-list {
@@ -352,13 +380,21 @@ footer {
   transition: opacity 0.3s;
 }
 
+.resume-pdf a {
+  color: #D3EDEA;
+}
+
+.dev-portfolio a {
+  color: #D3EDEA;
+}
+
 .resume-subhead {
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 30px;
 }
 
 .portfolio-head {
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 26px;
 }
 
@@ -397,6 +433,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+
 }
 
 .blog-image {
@@ -412,7 +449,7 @@ footer {
 }
 
 .blog-container {
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -436,6 +473,7 @@ footer {
   font-size: 20px;
 }
 
+
 /* This is the code for the box shadow hover animations */
 .blog1-link {
   transition: box-shadow 0.6s;
@@ -443,7 +481,7 @@ footer {
 }
 
 .blog1-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog2-link {
@@ -452,7 +490,7 @@ footer {
 }
 
 .blog2-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog3-link {
@@ -461,7 +499,7 @@ footer {
 }
 
 .blog3-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog4-link {
@@ -470,7 +508,7 @@ footer {
 }
 
 .blog4-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog5-link {
@@ -479,7 +517,15 @@ footer {
 }
 
 .blog5-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
+}
+
+.blog-links h4 {
+  color: #D3EDEA;
+}
+
+.blog-links h3 {
+  color: #D3EDEA;
 }
 
 /* This is the generic styling for the child blog pages */
@@ -497,7 +543,7 @@ footer {
 
 .blog-title {
   text-align: center;
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 24px;
 }
 
@@ -519,14 +565,14 @@ footer {
 /* This is the before and after bars wrapping the back to blog main link */
 #back-to-blog::before {
   content: "|";
-  color: #226f54;
+  color: #D3EDEA;
   font-weight: 700;
   margin-right: 5px;
 }
 
 #back-to-blog::after {
   content: "|";
-  color: #226f54;
+  color: #D3EDEA;
   font-weight: 700;
   margin-left: 5px;
 }
@@ -635,6 +681,10 @@ footer {
   font-weight: bold;
 }
 
+#back-to-blog a {
+  color: #D3EDEA;
+}
+
 /* This is the media breakpoint for desktop view */
 @media screen and (min-width: 769px) {
  /* Here is the styling for the navbar */
@@ -675,7 +725,7 @@ footer {
     bottom: 0;
     left: 0;
     transform: scaleX(0);
-    background-color: #226f54;
+    background-color: #009D9A;
     transform-origin: bottom center;
     transition: transform 0.2s ease-out;
   }
@@ -829,7 +879,7 @@ footer {
   }
 
   .contact-details-header {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 38px;
   }
 
@@ -887,12 +937,12 @@ footer {
   }
 
   .resume-subhead {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 38px;
   }
 
   .portfolio-head {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 32px;
   }
 
@@ -1151,7 +1201,7 @@ footer {
   }
 
   .contact-details-header {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 30px;
   }
 
@@ -1181,12 +1231,12 @@ footer {
   }
 
   .resume-subhead {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 34px;
   }
 
   .portfolio-head {
-    font-family: 'Esteban', Garamond, serif;
+    font-family: 'Poppins', Tahoma, sans-serif;
     font-size: 30px;
   }
 
