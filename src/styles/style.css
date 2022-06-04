@@ -153,8 +153,8 @@ footer {
   display: flex;
   flex-direction: row;
   min-width: 90%;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #D3EDEA;
   padding: 10px 5px;
