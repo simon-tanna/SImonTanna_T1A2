@@ -29,7 +29,8 @@ a:visited {
 }
 
 .logo {
-  min-height: 180px;
+  max-height: 200px;
+  min-height: 150px;
 }
 
 .navbar a {
