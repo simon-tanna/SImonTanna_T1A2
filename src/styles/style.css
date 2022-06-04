@@ -29,9 +29,7 @@ a:visited {
 }
 
 .logo {
-  height: 110px;
-  margin-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  min-height: 180px;
 }
 
 .navbar a {
@@ -149,6 +147,25 @@ footer {
 
 .intro-container {
   text-align: center;
+}
+
+.intro-icon-container {
+  display: flex;
+  flex-direction: row;
+  min-width: 90%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: #D3EDEA;
+  padding: 10px 5px;
+}
+
+.tech-icon {
+  max-width: 20%;
+}
+
+.tech-icon {
+  max-width: 50px;
 }
 
 .skills {
