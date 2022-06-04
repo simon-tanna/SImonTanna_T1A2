@@ -1,10 +1,10 @@
 /* The styling has been built with a mobile first design*/
 
 body {
-  background-color: #87c38fff;
+  background-color: #050A30;
   margin: 0;
   font-family: 'Poppins', Tahoma, sans-serif;
-  color: #262217ff;
+  color: #D3EDEA;
   overflow-x: hidden;
 }
 
@@ -14,18 +14,18 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #f4f0bbff;
-  font-family: 'Esteban', Garamond, serif;
+  background-color: #D3EDEA;
+  font-family: 'Poppins', Tahoma, sans-serif;
 }
 
 a:link {
   text-decoration: none;
-  color: #43291F;
+  color: #09333F;
 }
 
 a:visited {
   text-decoration: none;
-  color: #43291F;
+  color: #09333F;
 }
 
 .logo {
@@ -85,7 +85,7 @@ footer {
   align-items: flex-end;
   padding: 0.5rem;
   align-content: flex-end;
-  background-color: #f4f0bbff;
+  background-color: #D3EDEA;
 }
 
 .nav-footer-all {
@@ -130,15 +130,21 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  color: #262217ff;
+  color: #D3EDEA;
 }
 
 .intro-head {
   text-align: center;
   margin-left: 0.8rem;
   margin-right: 0.8rem;
-  font-family: 'Esteban', Garamond, serif;
+  font-family: 'Poppins', Tahoma, sans-serif;
   font-size: 38px;
+  margin-bottom: 5px;
+}
+
+.intro-subhead {
+  margin-top: 5px;
+  color: #95A49F;
 }
 
 .intro-container {
@@ -265,6 +271,10 @@ footer {
   font-family: 'Esteban', Garamond, serif;
   font-size: 28px;
   padding-left: 8px;
+}
+
+.contact-details a {
+  color: #D3EDEA
 }
 
 .contact-list {
@@ -443,7 +453,7 @@ footer {
 }
 
 .blog1-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog2-link {
@@ -452,7 +462,7 @@ footer {
 }
 
 .blog2-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog3-link {
@@ -461,7 +471,7 @@ footer {
 }
 
 .blog3-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog4-link {
@@ -470,7 +480,7 @@ footer {
 }
 
 .blog4-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 .blog5-link {
@@ -479,7 +489,7 @@ footer {
 }
 
 .blog5-link:hover {
-  box-shadow: 0 0 4px 4px rgb(2, 56, 37);
+  box-shadow: 0 0 4px 4px #09333F;
 }
 
 /* This is the generic styling for the child blog pages */
@@ -675,7 +685,7 @@ footer {
     bottom: 0;
     left: 0;
     transform: scaleX(0);
-    background-color: #226f54;
+    background-color: #009D9A;
     transform-origin: bottom center;
     transition: transform 0.2s ease-out;
   }
