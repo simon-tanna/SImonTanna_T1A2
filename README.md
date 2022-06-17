@@ -85,7 +85,7 @@ Navbars are consistent in the header and footer of all site pages to ensure easy
 ## Sub-resource Security
 The sub-recsource security hash used in the stylesheet is SHA-512.
 
-## Image and Artwork Credits
+## Stock Image and Artwork Credits
 
 ### **blog.html**
 Blog-1-image.jpg
